@@ -8,23 +8,23 @@ This project aims to create a Single Light Smart Switcher controlled via phone/c
 <a href="#">Click here to see video tutorial</a>
 
 ## Plan
-<i>Author: Kinga Lechwar </i><a href="https://fritzing.org/">(Fritzing Software)</a>
+<a href="https://fritzing.org/">(Fritzing Software)</a>
 
-<p align="center"><img src="#" alt="#" width="90%"/></p>
+<p align="center"><img src="img/Plan-charger-or-powerbank.png" alt="Plan charger or powerbank" width="80%"/></p>
 
 ## Schematic
-<i>Author: Kinga Lechwar </i><a href="https://fritzing.org/">(Fritzing Software)</a>
+<a href="https://fritzing.org/">(Fritzing Software)</a>
 
-<p align="center"><img src="#" alt="#" width="80%"/></p>
+<p align="center"><img src="img/Schematic.png" alt="Schematic" width="50%"/></p>
 
 ## Used Hardware
 - [WiFi Module ESP8266 + NodeMCU v3](https://botland.store/esp8266-wifi-modules/8241-esp8266-wifi-module-nodemcu-v3-5904422300630.html)
 
-<p align="center"><img src="img/wifi-esp8266-nodemcu-v3.webp" alt="NodeMCUv3" width="40%"/></p>
+<p align="center"><img src="img/wifi-esp8266-nodemcu-v3.webp" alt="NodeMCUv3" width="60%"/></p>
 
-<p align="center"><img src="img/Introduction-to-NodeMCU-V3.png.webp" alt="NodeMCUv3" width="40%"/></p>
+<p align="center"><img src="img/Introduction-to-NodeMCU-V3.png.webp" alt="NodeMCUv3" width="60%"/></p>
 
-<p align="center"><img src="img/esp8266-wifi-nodemcu-v3.webp" alt="NodeMCUv3" width="40%"/></p>
+<p align="center"><img src="img/esp8266-wifi-nodemcu-v3.webp" alt="NodeMCUv3" width="30%"/></p>
 
 - [Serwo SG-90 - micro - 180 degrees (double-arm servo horn)](https://botland.store/micro-servos/13128-servo-sg-90-micro-180-5904422350338.html)
 
@@ -66,6 +66,10 @@ This project aims to create a Single Light Smart Switcher controlled via phone/c
 <p align="center"><img src="img/micro-usb-cable.jpg" alt="Micro USB" width="40%"/></p>
 
 ### Version with batteries
+
+<p align="center"><img src="img/Plan-batteries.png" alt="Plan batteries" width="80%"/></p>
+
+<p align="center"><img src="img/Schematic-batteries.png" alt="#" width="40%"/></p>
 
 - [4 x AA (R6 LR6) alkaline battery](https://botland.store/batteries/9343-everactive-pro-aa-r6-lr6-alkaline-battery-4pcs-5903205770974.html)
 
