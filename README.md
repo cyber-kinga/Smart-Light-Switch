@@ -26,9 +26,11 @@ This project aims to create a Single Light Smart Switcher controlled via phone/c
 
 <p align="center"><img src="img/esp8266-wifi-nodemcu-v3.webp" alt="NodeMCUv3" width="30%"/></p>
 
-- [Serwo SG-90 - micro - 180 degrees (double-arm servo horn)](https://botland.store/micro-servos/13128-servo-sg-90-micro-180-5904422350338.html)
+- [Serwo SG-90 - micro - 180 degrees](https://botland.store/micro-servos/13128-servo-sg-90-micro-180-5904422350338.html)
 
 <p align="center"><img src="img/serwo-sg-90-micro-180.webp" alt="Servo" width="40%"/></p>
+
+<p>*we will use double-arm servo horn</p>
 
 <p align="center"><img src="img/1-serwo-sg-90-micro-180.webp" alt="Servo" width="40%"/></p>
 
@@ -67,10 +69,6 @@ This project aims to create a Single Light Smart Switcher controlled via phone/c
 
 ### Version with batteries
 
-<p align="center"><img src="img/Plan-batteries.png" alt="Plan batteries" width="80%"/></p>
-
-<p align="center"><img src="img/Schematic-batteries.png" alt="#" width="40%"/></p>
-
 - [4 x AA (R6 LR6) alkaline battery](https://botland.store/batteries/9343-everactive-pro-aa-r6-lr6-alkaline-battery-4pcs-5903205770974.html)
 
 <p align="center"><img src="img/everactive-pro-aa-r6-lr6-alkaline-battery-4pcs.webp" alt="4 Baterries" width="40%"/></p>
@@ -83,9 +81,17 @@ This project aims to create a Single Light Smart Switcher controlled via phone/c
 
 <p align="center"><img src="img/pin-male-raster-254mm.webp" alt="Female Pin Raster" width="40%"/></p>
   
-- [BLS](https://botland.com.pl/zlacza-bls/5204-zlacze-typu-bls-gniazdo-1x1-5szt-5904422353599.html)
+- [BLS connectors](https://botland.com.pl/zlacza-bls/5204-zlacze-typu-bls-gniazdo-1x1-5szt-5904422353599.html)
 
 <p align="center"><img src="img/bls-connector.webp" alt="BLS" width="40%"/></p>
+
+## Plan with batteries
+
+<p align="center"><img src="img/Plan-batteries.png" alt="Plan batteries" width="80%"/></p>
+
+## Schematic including batteries
+
+<p align="center"><img src="img/Schematic-batteries.png" alt="#" width="40%"/></p>
 
 
 ## Hardware Documentation
