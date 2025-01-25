@@ -1,0 +1,1 @@
+# Single-Light-Smart-Switcher-1.0-without-light-monitoring
