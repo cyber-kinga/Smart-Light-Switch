@@ -1,5 +1,5 @@
 # Single-Light-Smart-Switcher-1.0-without-light-monitoring
-This project aims to create a Single Light Smart Switcher controlled via phone/computer/tablet using wifi.
+This project aims to create a Single Light Smart Switcher controlled via phone/computer/tablet using wifi without light monitoring.
 
 ## YouTube presentation
 <a href="#">Click here to see video presentation</a>
