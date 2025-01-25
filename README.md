@@ -1,4 +1,4 @@
-# Single-Light-Smart-Switcher-1.0-without-light-monitoring
+# Single Light Smart Switcher 1.0 without light monitoring
 This project aims to create a Single Light Smart Switcher controlled via phone/computer/tablet using wifi without light monitoring.
 
 ## YouTube presentation
@@ -44,7 +44,7 @@ This project aims to create a Single Light Smart Switcher controlled via phone/c
 
 - [2 x Breadboard](https://botland.store/breadoards/19942-breadboard-justpi-400-holes-5904422328627.html)
 
-<p align="center"><img src="img/breadboard-justpi-400-holes.webp" alt="Charger" width="40%"/></p>
+<p align="center"><img src="img/breadboard-justpi-400-holes.webp" alt="Breadboard" width="40%"/></p>
 
 ## Power
 ### Version with charger
@@ -87,9 +87,9 @@ This project aims to create a Single Light Smart Switcher controlled via phone/c
 
 #### Plan and schematic with batteries
 
-<p align="center"><img src="img/Plan-batteries.png" alt="Plan batteries" width="80%"/></p>
+<p align="center"><img src="img/Plan-batteries.png" alt="Plan with batteries" width="80%"/></p>
 
-<p align="center"><img src="img/Schematic-batteries.png" alt="#" width="40%"/></p>
+<p align="center"><img src="img/Schematic-batteries.png" alt="Schematic with batteries" width="40%"/></p>
 
 
 ## Hardware Documentation
