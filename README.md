@@ -7,7 +7,7 @@ This project aims to create a Single Light Smart Switcher controlled via phone/c
 ## YouTube tutorial
 <a href="#">Click here to see video tutorial</a>
 
-## Plam
+## Plan
 <i>Author: Kinga Lechwar </i><a href="https://fritzing.org/">(Fritzing Software)</a>
 
 <p align="center"><img src="#" alt="#" width="90%"/></p>
@@ -17,18 +17,16 @@ This project aims to create a Single Light Smart Switcher controlled via phone/c
 
 <p align="center"><img src="#" alt="#" width="80%"/></p>
 
-## Version with micro usb + charger
-
-### Used Hardware
+## Used Hardware
 - [WiFi Module ESP8266 + NodeMCU v3](https://botland.store/esp8266-wifi-modules/8241-esp8266-wifi-module-nodemcu-v3-5904422300630.html)
 
-<p align="center"><img src="img/wifi-esp8266-nodemcu-v3.webp" alt="NodeMCUv3" width="80%"/></p>
+<p align="center"><img src="img/wifi-esp8266-nodemcu-v3.webp" alt="NodeMCUv3" width="40%"/></p>
 
-<p align="center"><img src="img/Introduction-to-NodeMCU-V3.png.webp" alt="NodeMCUv3" width="80%"/></p>
+<p align="center"><img src="img/Introduction-to-NodeMCU-V3.png.webp" alt="NodeMCUv3" width="40%"/></p>
 
-<p align="center"><img src="img/esp8266-wifi-nodemcu-v3.webp" alt="NodeMCUv3" width="80%"/></p>
+<p align="center"><img src="img/esp8266-wifi-nodemcu-v3.webp" alt="NodeMCUv3" width="40%"/></p>
 
-- [Serwo SG-90 - micro - 180 degrees](https://botland.store/micro-servos/13128-servo-sg-90-micro-180-5904422350338.html)
+- [Serwo SG-90 - micro - 180 degrees (double-arm servo horn)](https://botland.store/micro-servos/13128-servo-sg-90-micro-180-5904422350338.html)
 
 <p align="center"><img src="img/serwo-sg-90-micro-180.webp" alt="Servo" width="40%"/></p>
 
@@ -42,29 +40,33 @@ This project aims to create a Single Light Smart Switcher controlled via phone/c
 
 <p align="center"><img src="img/wires-justpi-20cm-3x40szt-m-m-f-f-m-f-120szt.webp" alt="Wires" width="40%"/></p>
 
-- Micro USB cable
+- [2 x Breadboard](https://botland.store/breadoards/19942-breadboard-justpi-400-holes-5904422328627.html)
 
-<p align="center"><img src="img/micro-usb-cable.jpg" alt="Micro USB" width="40%"/></p>
+<p align="center"><img src="img/breadboard-justpi-400-holes.webp" alt="Charger" width="40%"/></p>
+
+## Power
+### Version with charger
 
 - Charger
 
 <p align="center"><img src="img/charger.jpg" alt="Charger" width="40%"/></p>
 
-- [2 x Breadboard](https://botland.store/breadoards/19942-breadboard-justpi-400-holes-5904422328627.html)
+- Micro USB cable
 
-<p align="center"><img src="img/breadboard-justpi-400-holes.webp" alt="Charger" width="40%"/></p>
+<p align="center"><img src="img/micro-usb-cable.jpg" alt="Micro USB" width="40%"/></p>
 
-## Version with micro usb + powerbank
-
-### Additional components Hardware
+### Version with powerbank
 
 - Standard powerbank
 
 <p align="center"><img src="img/powerbank.jpg" alt="Long wires" width="40%"/></p>
 
-## Version with battery basket with 2 AA batteries
+- Micro USB cable
 
-### Used Hardware
+<p align="center"><img src="img/micro-usb-cable.jpg" alt="Micro USB" width="40%"/></p>
+
+### Version with batteries
+
 - [4 x AA (R6 LR6) alkaline battery](https://botland.store/batteries/9343-everactive-pro-aa-r6-lr6-alkaline-battery-4pcs-5903205770974.html)
 
 <p align="center"><img src="img/everactive-pro-aa-r6-lr6-alkaline-battery-4pcs.webp" alt="4 Baterries" width="40%"/></p>
@@ -73,19 +75,17 @@ This project aims to create a Single Light Smart Switcher controlled via phone/c
 
 <p align="center"><img src="img/battery-holder-4-x-aa-r6.webp" alt="Baterry holder" width="40%"/></p>
 
-- [Female Pin Raster](https://botland.com.pl/zlacza-raster-254mm/6889-pin-zenski-do-obudowy-gniazda-raster-254mm-10szt-5904422303198.html)
+- [Male Pin Raster](https://botland.store/bls-connectors/4776-male-pin-for-case-socket-raster-25mm-10pcs-5904422303181.html)
 
-<p align="center"><img src="img/pin-female-raster-254mm.webp" alt="Female Pin Raster" width="40%"/></p>
+<p align="center"><img src="img/pin-male-raster-254mm.webp" alt="Female Pin Raster" width="40%"/></p>
   
 - [BLS](https://botland.com.pl/zlacza-bls/5204-zlacze-typu-bls-gniazdo-1x1-5szt-5904422353599.html)
 
-<p align="center"><img src="img/bls.webp" alt="BLS" width="40%"/></p>
+<p align="center"><img src="img/bls-connector.webp" alt="BLS" width="40%"/></p>
 
 
 ## Hardware Documentation
 [NodeMCU](https://nodemcu.readthedocs.io/en/release/)
-
-[BH1750 Module](https://nodemcu.readthedocs.io/en/release/lua-modules/bh1750/)
 
 [Servo](http://www.datasheet-pdf.com/PDF/SG90-Datasheet-TowerPro-791970)
 
