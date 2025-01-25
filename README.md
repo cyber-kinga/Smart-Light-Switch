@@ -85,11 +85,9 @@ This project aims to create a Single Light Smart Switcher controlled via phone/c
 
 <p align="center"><img src="img/bls-connector.webp" alt="BLS" width="40%"/></p>
 
-## Plan with batteries
+#### Plan and schematic with batteries
 
 <p align="center"><img src="img/Plan-batteries.png" alt="Plan batteries" width="80%"/></p>
-
-## Schematic including batteries
 
 <p align="center"><img src="img/Schematic-batteries.png" alt="#" width="40%"/></p>
 
