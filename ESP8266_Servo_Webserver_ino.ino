@@ -2,20 +2,19 @@
 #include <WiFiClient.h>
 #include <ESP8266WebServer.h>
 #include <Servo.h>  
-#include "PageIndex.h";
+#include "Index.h";
 
-#define ServoPort D1
+#define ServoPin D1
 #define LedPin D5
 
 const char* ssid = "Light"; 
-const char* password = "nopassword"; 
+const char* password = "Set-Up-Strong-Password-Here"; 
 
-Servo myservo;  
-ESP8266WebServer server(80);  
+Servo servo1;  
+ESP8266WebServer server(80);
 
-void handleRoot() {
-  String s = MAIN_page; 
-  server.send(200, "text/html", s); 
+void handleRequests() { 
+  server.send(200, "text/html", Index); 
 }
 
 void blinkLed() {
@@ -29,36 +28,34 @@ void handleLight() {
   String state = server.arg("state");
   if (state == "on") {
     blinkLed();
-    myservo.write(90);
+    servo1.write(90);
     delay(500);
-    myservo.write(60);
+    servo1.write(120);
     delay(500);
-    myservo.write(90);
+    servo1.write(90);
   } else if (state == "off") {
     blinkLed();
-    myservo.write(90);
+    servo1.write(90);
     delay(500);
-    myservo.write(120);
+    servo1.write(60);
     delay(500);
-    myservo.write(90);
+    servo1.write(90);
   }
   server.send(200, "text/plain", "");
 }
 
 void setup() {
-  myservo.attach(ServoPort); 
+  servo1.attach(ServoPin); 
   pinMode(LedPin, OUTPUT);
   
   WiFi.softAP(ssid, password);
-  IPAddress myIP = WiFi.softAPIP();
 
-  server.on("/", handleRoot); 
-  server.on("/setLight", handleLight);
+  server.on("/", handleRequests); 
+  server.on("/setLight", handleLight); 
 
   server.begin();
 }
 
 void loop() {
   server.handleClient();
-  
 }
