@@ -1,5 +1,5 @@
-# Single Light Smart Switcher 1.0 with light monitoring
-This project aims to create a Single Light Smart Switcher controlled via phone/computer/tablet using wifi with light monitoring.
+# Smart Single-Light Switch 1.1
+This project aims to create a Smart Single-Light Switch controlled via phone/computer/tablet using wifi with light monitoring.
 
 ## YouTube presentation
 <a href="https://youtube.com/shorts/5B9hfxMmvcQ?feature=share3">Click here to see video presentation</a>
