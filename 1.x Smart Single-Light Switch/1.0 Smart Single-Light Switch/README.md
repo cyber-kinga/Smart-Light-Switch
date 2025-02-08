@@ -1,21 +1,18 @@
 # Smart Single-Light Switch 1.0
 This project aims to create a Smart Single-Light Switch controlled via phone/computer/tablet using wifi without light monitoring.
 
-## YouTube presentation
-<a href="#">Click here to see video presentation</a>
-
 ## YouTube tutorial
 <a href="#">Click here to see video tutorial</a>
 
 ## Plan
 <a href="https://fritzing.org/">(Fritzing Software)</a>
 
-<p align="center"><img src="../../img/Plan-charger-or-powerbank.png" alt="Plan charger or powerbank" width="80%"/></p>
+<p align="center"><img src="../../img/" alt="General plan" width="80%"/></p>
 
 ## Schematic
 <a href="https://fritzing.org/">(Fritzing Software)</a>
 
-<p align="center"><img src="../../img/Schematic.png" alt="Schematic" width="50%"/></p>
+<p align="center"><img src="../../img/" alt="General schematic" width="50%"/></p>
 
 ## Used Hardware
 - [WiFi Module ESP8266 + NodeMCU v3](https://botland.store/esp8266-wifi-modules/8241-esp8266-wifi-module-nodemcu-v3-5904422300630.html)
@@ -48,6 +45,7 @@ This project aims to create a Smart Single-Light Switch controlled via phone/com
 
 ## Power
 ### Version with charger
+<p align="center"><img src="../../img/version-with-charger.jpg" alt="Version with charger" width="80%"/></p>
 
 - Charger
 
@@ -58,6 +56,7 @@ This project aims to create a Smart Single-Light Switch controlled via phone/com
 <p align="center"><img src="../../img/micro-usb-cable.jpg" alt="Micro USB" width="40%"/></p>
 
 ### Version with powerbank
+<p align="center"><img src="../../img/version-with-powerbank.jpg" alt="Version with charger" width="80%"/></p>
 
 - Standard powerbank
 
@@ -68,6 +67,9 @@ This project aims to create a Smart Single-Light Switch controlled via phone/com
 <p align="center"><img src="img/micro-usb-cable.jpg" alt="Micro USB" width="40%"/></p>
 
 ### Version with batteries
+<p align="center"><img src="../../img/version-with-batteries.jpg" alt="Version with charger" width="80%"/></p>
+<p align="center"><img src="../../img/Plan-batteries.png" alt="Plan with batteries" width="80%"/></p>
+<p align="center"><img src="../../img/Schematic-batteries.png" alt="Schematic with batteries" width="40%"/></p>
 
 - [4 x AA (R6 LR6) alkaline battery](https://botland.store/batteries/9343-everactive-pro-aa-r6-lr6-alkaline-battery-4pcs-5903205770974.html)
 
@@ -85,18 +87,16 @@ This project aims to create a Smart Single-Light Switch controlled via phone/com
 
 <p align="center"><img src="../../img/bls-connector.webp" alt="BLS" width="40%"/></p>
 
-#### Plan and schematic with batteries
+### Version without diode
+<p align="center"><img src="../../img/version-without-diode.jpg" alt="Version with charger" width="80%"/></p>
 
-<p align="center"><img src="../../img/Plan-batteries.png" alt="Plan with batteries" width="80%"/></p>
-
-<p align="center"><img src="../../img/Schematic-batteries.png" alt="Schematic with batteries" width="40%"/></p>
-
+### Version without breadboard
+<p align="center"><img src="../../img/version-without-breadboard.jpg" alt="Version with charger" width="80%"/></p>
 
 ## Hardware Documentation
 [NodeMCU](https://nodemcu.readthedocs.io/en/release/)
 
 [Servo](http://www.datasheet-pdf.com/PDF/SG90-Datasheet-TowerPro-791970)
-
 
 ## Used Tools
 - <a href="https://fritzing.org/">Fritzing Software</a>
