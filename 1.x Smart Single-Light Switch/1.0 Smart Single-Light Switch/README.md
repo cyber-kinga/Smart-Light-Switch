@@ -100,9 +100,10 @@ Schematic made using <a href="https://fritzing.org/">Fritzing Software</a>
 
 ## Used Tools
 - <a href="https://fritzing.org/">Fritzing Software</a>
-    - <a href="https://github.com/roman-miniailov/nodemcu-v3-fritzing">NodeMCUv3 Wifi ESP86266 component</a>
-    - <a href="https://robdomo.com/ressources/fritzing-parts/tower-pro-sg90-servo/">Serwo SG-90 component</a>
+    - <a href="https://github.com/roman-miniailov/nodemcu-v3-fritzing">NodeMCUv3 Wifi ESP86266</a> component
+    - <a href="https://robdomo.com/ressources/fritzing-parts/tower-pro-sg90-servo/">Serwo SG-90</a> component
 - <a href="https://cloud.arduino.cc/">Arduino Cloud - Online Editor</a>
+    - <a href="https://docs.arduino.cc/arduino-cloud/hardware/cloud-agent/">Arduino Cloud Agent</a> - it is a required plugin that enables serial communication between your board and the Arduino Cloud accessed via your web browser
 
 ## My recommendations
 todo
