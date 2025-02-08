@@ -1,17 +1,17 @@
 # Smart Single-Light Switch 1.0
-This project aims to create a Smart Single-Light Switch controlled via phone/computer/tablet using wifi without light monitoring.
+This project aims to create a simple Smart Single-Light Switch controlled via phone/computer/tablet using wifi.
+<p align="center"><img src="../../img/" alt="presentation" width="80%"/></p>
 
 ## YouTube tutorial
 <a href="#">Click here to see video tutorial</a>
 
-## Sketch
-<a href="https://fritzing.org/">(Fritzing Software)</a>
+## Sketch & Schematic
+<p align="center"><img src="../../img/general-version.jpg" alt="Photo sketch" width="80%"/></p>
 
+Sketch made using <a href="https://fritzing.org/">Fritzing Software</a>
 <p align="center"><img src="../../img/General-sketch.png" alt="General sketch" width="80%"/></p>
 
-## Schematic
-<a href="https://fritzing.org/">(Fritzing Software)</a>
-
+Schematic made using <a href="https://fritzing.org/">Fritzing Software</a>
 <p align="center"><img src="../../img/General-schematic.png" alt="General schematic" width="50%"/></p>
 
 ## Used Hardware
