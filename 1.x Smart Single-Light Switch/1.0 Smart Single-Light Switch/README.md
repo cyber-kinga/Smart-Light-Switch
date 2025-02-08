@@ -4,15 +4,15 @@ This project aims to create a Smart Single-Light Switch controlled via phone/com
 ## YouTube tutorial
 <a href="#">Click here to see video tutorial</a>
 
-## Plan
+## Sketch
 <a href="https://fritzing.org/">(Fritzing Software)</a>
 
-<p align="center"><img src="../../img/" alt="General plan" width="80%"/></p>
+<p align="center"><img src="../../img/General-sketch.png" alt="General sketch" width="80%"/></p>
 
 ## Schematic
 <a href="https://fritzing.org/">(Fritzing Software)</a>
 
-<p align="center"><img src="../../img/" alt="General schematic" width="50%"/></p>
+<p align="center"><img src="../../img/General-schematic.png" alt="General schematic" width="50%"/></p>
 
 ## Used Hardware
 - [WiFi Module ESP8266 + NodeMCU v3](https://botland.store/esp8266-wifi-modules/8241-esp8266-wifi-module-nodemcu-v3-5904422300630.html)
@@ -67,9 +67,9 @@ This project aims to create a Smart Single-Light Switch controlled via phone/com
 <p align="center"><img src="img/micro-usb-cable.jpg" alt="Micro USB" width="40%"/></p>
 
 ### Version with batteries
-<p align="center"><img src="../../img/version-with-batteries.jpg" alt="Version with charger" width="80%"/></p>
-<p align="center"><img src="../../img/Plan-batteries.png" alt="Plan with batteries" width="80%"/></p>
-<p align="center"><img src="../../img/Schematic-batteries.png" alt="Schematic with batteries" width="40%"/></p>
+<p align="center"><img src="../../img/version-with-batteries.jpg" alt="Version with batteries" width="80%"/></p>
+<p align="center"><img src="../../img/Batteries-sketch.png" alt="Sketch with batteries" width="80%"/></p>
+<p align="center"><img src="../../img/Batteries-schematic.png" alt="Schematic with batteries" width="40%"/></p>
 
 - [4 x AA (R6 LR6) alkaline battery](https://botland.store/batteries/9343-everactive-pro-aa-r6-lr6-alkaline-battery-4pcs-5903205770974.html)
 
