@@ -94,9 +94,12 @@ Schematic made using <a href="https://fritzing.org/">Fritzing Software</a>
 <p align="center"><img src="../../img/version-without-breadboard.jpg" alt="Version with charger" width="80%"/></p>
 
 ## Hardware Documentation
-[NodeMCU](https://nodemcu.readthedocs.io/en/release/)
+[NodeMCU](https://github.com/nodemcu)
 
 [Servo](http://www.datasheet-pdf.com/PDF/SG90-Datasheet-TowerPro-791970)
+
+## Software Documentation
+[ESP8266](https://github.com/esp8266/Arduino)
 
 ## Used Tools
 - <a href="https://fritzing.org/">Fritzing Software</a>
