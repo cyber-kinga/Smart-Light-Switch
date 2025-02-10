@@ -1,22 +1,22 @@
 /* Documentation: 
   - https://github.com/esp8266/Arduino
+  - https://docs.arduino.cc/programming/
   - https://docs.arduino.cc/libraries/ 
 */
-#include <ESP8266WiFi.h>       
-#include <WiFiClient.h>        
-#include <ESP8266WebServer.h>  
-#include <Servo.h>       
+#include <ESP8266WiFi.h> // For connecting ESP8266 module to our Wi-Fi network
+#include <ESP8266WebServer.h> // For setting up a simple web server
+#include <Servo.h> // For controlling servo motors 
 
-// GPIO pins for the servo and LED diode
+// GPIO pins definition for the servo and LED diode
 #define SERVO_PIN D1 
 #define LED_PIN D5    
 
 // Wi-Fi credentials for Access Point mode
-const char* WIFI_SSID = "Light"; //Wi-Fi name  
-const char* WIFI_PASSWORD = "123"; //Wi-Fi password
+const char* WIFI_SSID = "ESP8266-WiFi-Name"; // Set custom ESP8266 Wi-Fi name  
+const char* WIFI_PASSWORD = "ESP8266-WiFi-Password"; // Set custom and strong ESP8266 Wi-Fi password
 
-Servo servoMotor; // Create a Servo object
-ESP8266WebServer webServer(80); // Create a web server on port 80
+Servo servoMotor; // Create a servo object
+ESP8266WebServer webServer(80); // Create a web server object on port 80
 
 // HTML page stored in program memory (PROGMEM)
 const char Index[] PROGMEM = R"=====(
@@ -71,13 +71,13 @@ const char Index[] PROGMEM = R"=====(
 </html>
 )=====";
 
-// Function to handle the webpage request
+// Send the HTML page to the client
 void webApp() { 
-  webServer.send(200, "text/html", Index); // Send the HTML page as response
+  webServer.send(200, "text/html", Index); 
 }
 
 // Comment below function when using powerbank
-// Function to blink the LED diode to indicate action/signal
+// Function to blink the LED diode to indicate signal (action)
 void blinkLed() {
   digitalWrite(LED_PIN, HIGH); // Turn LED diode on
   delay(100);                  // Wait 100ms
@@ -88,13 +88,13 @@ void blinkLed() {
 // Uncomment below function when using powerbank
 // Function to blink the LED diode while keeping it constantly ON
 /*void blinkLed() {
-  digitalWrite(LED_PIN, LOW);  // Turn LED off (assuming LOW is off)
+  digitalWrite(LED_PIN, LOW);  // Turn LED off
   delay(100);                  // Wait 100ms
-  digitalWrite(LED_PIN, HIGH); // Turn LED back on (assuming HIGH is on)
+  digitalWrite(LED_PIN, HIGH); // Turn LED back on
   delay(100);                  // Wait 100ms
 }*/
 
-// Function to control the servo motor based on received signals
+// Function to control the servo motor based on received signal
 void controlServo() {
   String signal = webServer.arg("action"); // Get the "action" parameter from the HTTP request
 
@@ -133,8 +133,8 @@ void setup() {
   WiFi.softAP(WIFI_SSID, WIFI_PASSWORD); 
 
   // Define web server routes
-  webServer.on("/", webApp); // Serve the main webpage
-  webServer.on("/moveServo", controlServo); // Handle servo movement requests
+  webServer.on("/", webApp); // Handle requests using webApp function for the main webpage "/"
+  webServer.on("/moveServo", controlServo); // Handle requests for servo movement
 
   webServer.begin(); // Start the web server
 }
