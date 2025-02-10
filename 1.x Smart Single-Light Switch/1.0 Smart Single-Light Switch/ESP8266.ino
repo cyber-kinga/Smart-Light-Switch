@@ -38,7 +38,7 @@ const char Index[] PROGMEM = R"=====(
         padding: 20px 55px;
         text-align: center;
         text-decoration: none;
-        border: 5px solid #fff;
+        border: none;
         cursor: pointer;
         font-weight: bold;
       }
