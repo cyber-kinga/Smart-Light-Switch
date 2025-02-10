@@ -64,7 +64,7 @@ Schematic made using <a href="https://fritzing.org/">Fritzing Software</a>
 
 - Micro USB cable
 
-<p align="center"><img src="img/micro-usb-cable.jpg" alt="Micro USB" width="40%"/></p>
+<p align="center"><img src="../..img/micro-usb-cable.jpg" alt="Micro USB" width="40%"/></p>
 
 ### Version with batteries
 <p align="center"><img src="../../img/version-with-batteries.jpg" alt="Version with batteries" width="80%"/></p>
@@ -88,6 +88,14 @@ Schematic made using <a href="https://fritzing.org/">Fritzing Software</a>
 <p align="center"><img src="../../img/bls-connector.webp" alt="BLS" width="40%"/></p>
 
 ### Version without diode
+You can delete the ```blinkLed()``` function along with its calls, as well as the following lines:
+```c
+#define LED_PIN D5  
+```
+```c
+pinMode(LED_PIN, OUTPUT);
+```
+
 <p align="center"><img src="../../img/version-without-diode.jpg" alt="Version with charger" width="80%"/></p>
 
 ### Version without breadboard
@@ -99,7 +107,11 @@ Schematic made using <a href="https://fritzing.org/">Fritzing Software</a>
 [Servo](http://www.datasheet-pdf.com/PDF/SG90-Datasheet-TowerPro-791970)
 
 ## Software Documentation
-[ESP8266](https://github.com/esp8266/Arduino)
+[github.com/esp8266/Arduino](https://github.com/esp8266/Arduino)
+
+[docs.arduino.cc/programming](https://docs.arduino.cc/programming/)
+
+[docs.arduino.cc/libraries](https://docs.arduino.cc/libraries/) 
 
 ## Used Tools
 - <a href="https://fritzing.org/">Fritzing Software</a>
@@ -113,3 +125,5 @@ todo
 
 ## Resources and Inspiration
 <a href="https://electechoz.blogspot.com/2022/01/esp8266-webserver-controller-servo-motor.html">Eleco Techoz</a>
+
+
