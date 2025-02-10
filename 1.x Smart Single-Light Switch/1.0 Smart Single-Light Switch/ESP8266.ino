@@ -18,7 +18,7 @@ const char* WIFI_PASSWORD = "ESP8266-WiFi-Password"; // Set custom and strong ES
 Servo servoMotor;               // Create a servo object
 ESP8266WebServer webServer(80); // Create a web server object on port 80
 
-// HTML page stored in program memory (PROGMEM)
+// HTML page stored in program memory (PROGMEM) and available at the 192.168.4.1 address
 const char Index[] PROGMEM = R"=====(
 <!DOCTYPE html>
 <html>
@@ -130,7 +130,7 @@ void setup() {
   webServer.on("/", webApp);                // Handle requests using webApp function for the main webpage "/"
   webServer.on("/moveServo", controlServo); // Handle requests for servo movement
 
-  webServer.begin(); // Start the web server
+  webServer.begin(); // Start the web server 
 }
 
 //The loop() function does precisely what its name suggests, and loops consecutively, allowing your program to change and respond. 
