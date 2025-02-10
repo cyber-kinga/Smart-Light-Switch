@@ -1,7 +1,8 @@
 /* Documentation: 
   - https://github.com/esp8266/Arduino
-  - https://docs.arduino.cc/programming/
-  - https://docs.arduino.cc/libraries/ 
+  - https://docs.arduino.cc/
+      - https://docs.arduino.cc/programming/
+      - https://docs.arduino.cc/libraries/ 
 */
 #include <ESP8266WebServer.h>  // For setting up a simple web server
 #include <ESP8266WiFi.h>       // For enabling ESP8266 to create a Wi-Fi network
