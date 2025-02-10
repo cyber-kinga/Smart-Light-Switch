@@ -27,10 +27,7 @@ const char Index[] PROGMEM = R"=====(
     <style>
       html {
         font-family: Lato, sans-serif;
-        display: inline-block;
-        margin: 0 auto;
         text-align: center;
-        text-shadow: 2px 2px 5px #fff;
       }
       h1 {
         color: #1cb4fa;
@@ -41,7 +38,6 @@ const char Index[] PROGMEM = R"=====(
         padding: 20px 55px;
         text-align: center;
         text-decoration: none;
-        display: inline-block;
         border: 5px solid #fff;
         cursor: pointer;
         font-weight: bold;
