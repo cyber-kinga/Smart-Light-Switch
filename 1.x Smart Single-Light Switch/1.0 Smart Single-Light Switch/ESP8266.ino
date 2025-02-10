@@ -3,8 +3,8 @@
   - https://docs.arduino.cc/programming/
   - https://docs.arduino.cc/libraries/ 
 */
-#include <ESP8266WiFi.h> // For connecting ESP8266 module to our Wi-Fi network
 #include <ESP8266WebServer.h> // For setting up a simple web server
+#include <ESP8266WiFi.h> // For enabling ESP8266 to create a Wi-Fi network
 #include <Servo.h> // For controlling servo motors 
 
 // GPIO pins definition for the servo and LED diode
@@ -76,7 +76,7 @@ void webApp() {
   webServer.send(200, "text/html", Index); 
 }
 
-// Comment below function when using powerbank
+// Comment or delete below function when using powerbank
 // Function to blink the LED diode to indicate signal (action)
 void blinkLed() {
   digitalWrite(LED_PIN, HIGH); // Turn LED diode on
@@ -85,7 +85,7 @@ void blinkLed() {
   delay(100);                  // Wait 100ms
 }
 
-// Uncomment below function when using powerbank
+// Uncomment the function below when using a powerbank, otherwise - you can delete it.
 // Function to blink the LED diode while keeping it constantly ON
 /*void blinkLed() {
   digitalWrite(LED_PIN, LOW);  // Turn LED off
@@ -126,7 +126,7 @@ void setup() {
   servoMotor.attach(SERVO_PIN); // Attach the servo motor to its pin
   pinMode(LED_PIN, OUTPUT);     // Set the LED diode pin as an output
 
-  // Uncomment below line when using powerbank
+  // Uncomment the line below when using a powerbank, otherwise - you can delete it.
   // digitalWrite(LED_PIN, HIGH);  // LED diode stays constantly ON at startup
 
   // Start the ESP8266 as an Access Point (AP mode)
