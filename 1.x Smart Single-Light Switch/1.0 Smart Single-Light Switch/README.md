@@ -102,16 +102,16 @@ pinMode(LED_PIN, OUTPUT);
 <p align="center"><img src="../../img/version-without-breadboard.jpg" alt="Version with charger" width="80%"/></p>
 
 ## Hardware Documentation
-[NodeMCU](https://github.com/nodemcu)
+- [NodeMCU](https://github.com/nodemcu)
 
-[Servo](http://www.datasheet-pdf.com/PDF/SG90-Datasheet-TowerPro-791970)
+- [Servo](http://www.datasheet-pdf.com/PDF/SG90-Datasheet-TowerPro-791970)
 
 ## Software Documentation
-[github.com/esp8266/Arduino](https://github.com/esp8266/Arduino)
+- [github.com/esp8266/Arduino](https://github.com/esp8266/Arduino)
 
-[docs.arduino.cc/programming](https://docs.arduino.cc/programming/)
-
-[docs.arduino.cc/libraries](https://docs.arduino.cc/libraries/) 
+- [docs.arduino.cc](https://docs.arduino.cc/)
+  - [docs.arduino.cc/programming](https://docs.arduino.cc/programming/)
+  - [docs.arduino.cc/libraries](https://docs.arduino.cc/libraries/) 
 
 ## Used Tools
 - <a href="https://fritzing.org/">Fritzing Software</a>
