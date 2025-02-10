@@ -120,8 +120,11 @@ pinMode(LED_PIN, OUTPUT);
 - <a href="https://cloud.arduino.cc/">Arduino Cloud - Online Editor</a>
     - <a href="https://docs.arduino.cc/arduino-cloud/hardware/cloud-agent/">Arduino Cloud Agent</a> - it is a required plugin that enables serial communication between your board and the Arduino Cloud accessed via your web browser
 
-## My recommendations
-todo
+## My recommendations and tips
+Keep in mind that if you plan to power your device using a ```powerbank```, it won’t work without the LED diode. That’s because the microcontroller and servo together don’t draw enough power, causing a standard powerbank to quickly shut off, assuming there’s nothing to power.
+To make the powerbank solution work, we need to make one small adjustment in our code: the LED diode should stay on continuously to create enough power demand and only blink when a signal is received. I’ve already implemented this solution in the code (you can find it within comments) so you don’t have to write it yourself.
+
+```TIP: You can trick the powerbank in a different way by making the LED diode blink every x seconds. Give it a try!```
 
 ## Resources and Inspiration
 <a href="https://electechoz.blogspot.com/2022/01/esp8266-webserver-controller-servo-motor.html">Eleco Techoz</a>
