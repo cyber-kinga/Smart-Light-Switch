@@ -82,7 +82,6 @@ void blinkLed() {
   digitalWrite(LED_PIN, HIGH); // Turn LED diode on
   delay(100);                  // Wait 100ms
   digitalWrite(LED_PIN, LOW);  // Turn LED diode off
-  delay(100);                  // Wait 100ms
 }
 
 // Uncomment the function below when using a powerbank, otherwise - you can delete it.
@@ -91,7 +90,6 @@ void blinkLed() {
   digitalWrite(LED_PIN, LOW);  // Turn LED off
   delay(100);                  // Wait 100ms
   digitalWrite(LED_PIN, HIGH); // Turn LED back on
-  delay(100);                  // Wait 100ms
 }*/
 
 // Function to control the servo motor based on received signal
