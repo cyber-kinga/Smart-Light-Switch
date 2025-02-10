@@ -2,7 +2,7 @@
 This project aims to create a simple Smart Single-Light Switch controlled via phone/computer/tablet using wifi.
 
 ## YouTube tutorial
-<a href="#">Click here to see video tutorial</a>
+<a href="#">Click here</a> to see video tutorial
 
 ## Sketch & Schematic
 <p align="center"><img src="../../img/general-version.jpg" alt="Photo sketch" width="80%"/></p>
