@@ -3,19 +3,19 @@
   - https://docs.arduino.cc/programming/
   - https://docs.arduino.cc/libraries/ 
 */
-#include <ESP8266WebServer.h> // For setting up a simple web server
-#include <ESP8266WiFi.h> // For enabling ESP8266 to create a Wi-Fi network
-#include <Servo.h> // For controlling servo motors 
+#include <ESP8266WebServer.h>  // For setting up a simple web server
+#include <ESP8266WiFi.h>       // For enabling ESP8266 to create a Wi-Fi network
+#include <Servo.h>             // For controlling servo motors 
 
 // GPIO pins definition for the servo and LED diode
 #define SERVO_PIN D1 
 #define LED_PIN D5    
 
 // Wi-Fi credentials for Access Point mode
-const char* WIFI_SSID = "ESP8266-WiFi-Name"; // Set custom ESP8266 Wi-Fi name  
+const char* WIFI_SSID = "ESP8266-WiFi-Name";         // Set custom ESP8266 Wi-Fi name  
 const char* WIFI_PASSWORD = "ESP8266-WiFi-Password"; // Set custom and strong ESP8266 Wi-Fi password
 
-Servo servoMotor; // Create a servo object
+Servo servoMotor;               // Create a servo object
 ESP8266WebServer webServer(80); // Create a web server object on port 80
 
 // HTML page stored in program memory (PROGMEM)
@@ -133,7 +133,7 @@ void setup() {
   WiFi.softAP(WIFI_SSID, WIFI_PASSWORD); 
 
   // Define web server routes
-  webServer.on("/", webApp); // Handle requests using webApp function for the main webpage "/"
+  webServer.on("/", webApp);                // Handle requests using webApp function for the main webpage "/"
   webServer.on("/moveServo", controlServo); // Handle requests for servo movement
 
   webServer.begin(); // Start the web server
