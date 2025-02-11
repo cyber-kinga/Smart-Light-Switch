@@ -42,6 +42,10 @@ Schematic made using <a href="https://fritzing.org/">Fritzing Software</a>
 
 <p align="center"><img src="../../img/breadboard-justpi-400-holes.webp" alt="Breadboard" width="40%"/></p>
 
+- Micro USB cable
+
+<p align="center"><img src="../../img/micro-usb-cable.jpg" alt="Micro USB" width="40%"/></p>
+
 ## Power
 ### Version with charger
 <p align="center"><img src="../../img/version-with-charger.jpg" alt="Version with charger" width="80%"/></p>
@@ -50,20 +54,12 @@ Schematic made using <a href="https://fritzing.org/">Fritzing Software</a>
 
 <p align="center"><img src="../../img/charger.jpg" alt="Charger" width="40%"/></p>
 
-- Micro USB cable
-
-<p align="center"><img src="../../img/micro-usb-cable.jpg" alt="Micro USB" width="40%"/></p>
-
 ### Version with powerbank
 <p align="center"><img src="../../img/version-with-powerbank.jpg" alt="Version with charger" width="80%"/></p>
 
 - Standard powerbank
 
 <p align="center"><img src="../../img/powerbank.jpg" alt="Long wires" width="40%"/></p>
-
-- Micro USB cable
-
-<p align="center"><img src="../../img/micro-usb-cable.jpg" alt="Micro USB" width="40%"/></p>
 
 ### Version with batteries
 <p align="center"><img src="../../img/version-with-batteries.jpg" alt="Version with batteries" width="80%"/></p>
