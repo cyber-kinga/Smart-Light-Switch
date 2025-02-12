@@ -121,6 +121,27 @@ To make the powerbank solution work, we need to make one small adjustment in our
 
 ```TIP: You can trick the powerbank in a different way by making the LED diode blink every x seconds. Give it a try!```
 
+The angles in the following code assume that the servo motor is mounted with its sticker facing the breadboard. If the mounting orientation is different, the movement directions may need to be adjusted (possibly requiring swapping 60 and 120 degrees).
+
+```c
+  if (signal == "on") {         // If the signal says "on"
+    blinkLed();                 // Blink LED diode to indicate action
+    servoMotor.write(90);       // Move servo to 90 degrees
+    delay(500);                 // Wait 500ms
+    servoMotor.write(120);      // Move servo to 120 degrees (or 60 degrees)
+    delay(500);                 // Wait 500ms
+    servoMotor.write(90);       // Return to 90 degrees
+  } 
+  else if (signal == "off") {   // If the signal says "off"
+    blinkLed();                 // Blink LED diode to indicate action
+    servoMotor.write(90);       // Move servo to 90 degrees
+    delay(500);                 // Wait 500ms
+    servoMotor.write(60);       // Move servo to 60 degrees (or 120 degrees)
+    delay(500);                 // Wait 500ms
+    servoMotor.write(90);       // Return to 90 degrees
+  }
+```
+
 ## Resources and Inspiration
 <a href="https://electechoz.blogspot.com/2022/01/esp8266-webserver-controller-servo-motor.html">Eleco Techoz</a>
 
