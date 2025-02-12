@@ -97,7 +97,7 @@ void controlServo() {
     blinkLed();                 // Blink LED diode to indicate action
     servoMotor.write(90);       // Move servo to 90 degrees
     delay(500);                 // Wait 500ms
-    servoMotor.write(120);      // Move servo to 120 degrees
+    servoMotor.write(120);      // Move servo to 120 degrees (or 60 degrees)
     delay(500);                 // Wait 500ms
     servoMotor.write(90);       // Return to 90 degrees
   } 
@@ -105,7 +105,7 @@ void controlServo() {
     blinkLed();                 // Blink LED diode to indicate action
     servoMotor.write(90);       // Move servo to 90 degrees
     delay(500);                 // Wait 500ms
-    servoMotor.write(60);       // Move servo to 60 degrees
+    servoMotor.write(60);       // Move servo to 60 degrees (or 120 degrees)
     delay(500);                 // Wait 500ms
     servoMotor.write(90);       // Return to 90 degrees
   }
