@@ -64,7 +64,7 @@ const char Index[] PROGMEM = R"=====(
   </head>
   <body>
     <div class="container">
-      <h1>Control your Single-Light Smart Switch 1.0</h1>
+      <h1>Control your Double-Light Smart Switch 2.0</h1>
       <br><br>
       <button onclick="sendSignal('on2')" class="btn btn-on lightLeftOn">On</button>
       <button onclick="sendSignal('on1')" class="btn btn-on lightRightOn">On</button>
