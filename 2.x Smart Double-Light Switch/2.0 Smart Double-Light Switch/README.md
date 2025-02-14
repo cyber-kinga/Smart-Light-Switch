@@ -8,7 +8,7 @@ This project aims to create a simple Smart Double-Light Switch controlled via ph
 <a href="#">Click here</a> to see video tutorial
 
 ## Sketch & Schematic
-<p align="center"><img src="../../img/" alt="Photo sketch" width="80%"/></p>
+<p align="center"><img src="../../img/photo-sketch.jpg" alt="Photo sketch" width="80%"/></p>
 
 Sketch made using <a href="https://fritzing.org/">Fritzing Software</a>
 <p align="center"><img src="../../img/general-sketch2.png" alt="General sketch" width="100%"/></p>
@@ -48,21 +48,21 @@ Sketch made using <a href="https://fritzing.org/">Fritzing Software</a>
 
 ## Power
 ### Version with charger
-<p align="center"><img src="../../img/" alt="Version with charger" width="80%"/></p>
+<p align="center"><img src="../../img/photo-version-with-power-adapter.jpg" alt="Version with power adapter" width="80%"/></p>
 
 - Charger
 
 <p align="center"><img src="../../img/charger.jpg" alt="Charger" width="40%"/></p>
 
 ### Version with powerbank
-<p align="center"><img src="../../img/" alt="Version with charger" width="80%"/></p>
+<p align="center"><img src="../../img/photo-version-with-powerbank.jpg" alt="Version with powerbank" width="80%"/></p>
 
 - Standard powerbank
 
 <p align="center"><img src="../../img/powerbank.jpg" alt="Long wires" width="40%"/></p>
 
 ### Version with batteries
-<p align="center"><img src="../../img/" alt="Version with batteries" width="80%"/></p>
+<p align="center"><img src="../../img/photo-version-with-batteries.jpg" alt="Version with batteries" width="80%"/></p>
 <p align="center"><img src="../../img/sketch-with-batteries2.png" alt="Sketch with batteries" width="100%"/></p>
 
 - [4 x AA (R6 LR6) alkaline battery](https://botland.store/batteries/9343-everactive-pro-aa-r6-lr6-alkaline-battery-4pcs-5903205770974.html)
