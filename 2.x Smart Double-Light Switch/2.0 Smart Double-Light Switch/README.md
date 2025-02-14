@@ -92,6 +92,9 @@ You can delete the ```blinkLed()``` function along with its calls, as well as th
 pinMode(LED_PIN, OUTPUT);
 ```
 
+## Accesing the web page
+Type 192.168.4.1 address in you browser to control your device.
+
 ## Hardware Documentation
 - [NodeMCU](https://github.com/nodemcu)
 
