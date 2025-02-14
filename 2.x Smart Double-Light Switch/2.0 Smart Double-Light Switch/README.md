@@ -51,23 +51,23 @@ Schematic made using <a href="https://fritzing.org/">Fritzing Software</a>
 
 ## Power
 ### Version with charger
-<p align="center"><img src="../../img/version-with-charger.jpg" alt="Version with charger" width="80%"/></p>
+<p align="center"><img src="../../img/" alt="Version with charger" width="80%"/></p>
 
 - Charger
 
 <p align="center"><img src="../../img/charger.jpg" alt="Charger" width="40%"/></p>
 
 ### Version with powerbank
-<p align="center"><img src="../../img/version-with-powerbank.jpg" alt="Version with charger" width="80%"/></p>
+<p align="center"><img src="../../img/" alt="Version with charger" width="80%"/></p>
 
 - Standard powerbank
 
 <p align="center"><img src="../../img/powerbank.jpg" alt="Long wires" width="40%"/></p>
 
 ### Version with batteries
-<p align="center"><img src="../../img/version-with-batteries.jpg" alt="Version with batteries" width="80%"/></p>
-<p align="center"><img src="../../img/Batteries-sketch.png" alt="Sketch with batteries" width="80%"/></p>
-<p align="center"><img src="../../img/Batteries-schematic.png" alt="Schematic with batteries" width="40%"/></p>
+<p align="center"><img src="../../img/" alt="Version with batteries" width="80%"/></p>
+<p align="center"><img src="../../img/" alt="Sketch with batteries" width="80%"/></p>
+<p align="center"><img src="../../img/" alt="Schematic with batteries" width="40%"/></p>
 
 - [4 x AA (R6 LR6) alkaline battery](https://botland.store/batteries/9343-everactive-pro-aa-r6-lr6-alkaline-battery-4pcs-5903205770974.html)
 
@@ -76,6 +76,8 @@ Schematic made using <a href="https://fritzing.org/">Fritzing Software</a>
 - [Battery holder - 4 x AA (R6)](https://botland.store/battery-holders/173-battery-holder-4-x-aa-r6-5904422329389.html)
 
 <p align="center"><img src="../../img/battery-holder-4-x-aa-r6.webp" alt="Baterry holder" width="40%"/></p>
+
+If you're using a battery basket, it can be delivered without pre-installed connectors (like above) — in that case you can use male pin rasters and BLS connectors to create the connectors yourself.
 
 - [Male Pin Raster](https://botland.store/bls-connectors/4776-male-pin-for-case-socket-raster-25mm-10pcs-5904422303181.html)
 
@@ -94,7 +96,7 @@ You can delete the ```blinkLed()``` function along with its calls, as well as th
 pinMode(LED_PIN, OUTPUT);
 ```
 
-<p align="center"><img src="../../img/version-without-diode.jpg" alt="Version without diode" width="80%"/></p>
+<p align="center"><img src="../../img/" alt="Version without diode" width="80%"/></p>
 
 ### Version without breadboard
 <p align="center"><img src="../../img/" alt="Version without breadboard" width="80%"/></p>
@@ -159,6 +161,9 @@ pinMode(LED_PIN, OUTPUT);
 To make the powerbank solution work, we need to make one small adjustment in our code: the LED diode should stay on continuously to create enough power demand and only blink when a signal is received. I’ve already implemented this solution in the code (you can find it within comments) so you don’t have to write it yourself.
 
 ```TIP: You can trick the powerbank in a different way by making the LED diode blink every x seconds. Give it a try!```
+
+3. If the upload fails, the issue might be an old micro USB cable. Even if the cable looks fine, it could be damaged internally. I had this issue before so I bought a completely new micro USB cable and it solved all of my problems.
+4. If you get a port busy error, you can open a Device Manager, find Ports (COM & LPT), locate your device, and disable & enable the driver. This should solve the issue.
 
 ## Resources and Inspiration
 <a href="https://electechoz.blogspot.com/2022/01/esp8266-webserver-controller-servo-motor.html">Eleco Techoz</a>
