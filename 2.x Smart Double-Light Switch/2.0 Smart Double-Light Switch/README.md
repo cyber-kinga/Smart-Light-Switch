@@ -5,7 +5,7 @@ This project aims to create a simple Smart Double-Light Switch controlled via ph
 <a href="#">Click here</a> to see video tutorial
 
 ## Previous YouTube tutorial (watch it before moving to this tutorial)
-<a href="https://youtu.be/bshRV9Qr4Ys">Click here</a> to see video tutorial
+<a href="https://youtu.be/bshRV9Qr4Ys">Click here</a> to see previous video tutorial
 
 ## Sketch & Schematic
 <p align="center"><img src="../../img/photo-sketch.jpg" alt="Photo sketch" width="100%"/></p>
