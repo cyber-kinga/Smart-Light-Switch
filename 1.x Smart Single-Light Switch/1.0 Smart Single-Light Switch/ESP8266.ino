@@ -89,7 +89,7 @@ void blinkLed() {
   digitalWrite(LED_PIN, HIGH); // Turn LED back on
 }*/
 
-// Function to control the servo motor based on received signal
+// Function to control the servomotor based on received signal
 void controlServo() {
   String signal = webServer.arg("action"); // Get the "action" parameter from the HTTP request
 
@@ -118,7 +118,7 @@ void controlServo() {
   The setup() function will only run once, after each powerup or reset of the Arduino board. 
 */
 void setup() {
-  servoMotor.attach(SERVO_PIN); // Attach the servo motor to its pin
+  servoMotor.attach(SERVO_PIN); // Attach the servomotor to its pin
   pinMode(LED_PIN, OUTPUT);     // Set the LED diode pin as an output
 
   // Uncomment the line below when using a powerbank, otherwise - you can delete it.
