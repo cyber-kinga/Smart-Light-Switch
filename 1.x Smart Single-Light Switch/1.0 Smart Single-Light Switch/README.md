@@ -74,6 +74,8 @@ Schematic made using <a href="https://fritzing.org/">Fritzing Software</a>
 
 <p align="center"><img src="../../img/battery-holder-4-x-aa-r6.webp" alt="Baterry holder" width="40%"/></p>
 
+If you're using a battery basket, it can be delivered without pre-installed connectors (like above) — in that case you can use male pin rasters and BLS connectors to create the connectors yourself.
+
 - [Male Pin Raster](https://botland.store/bls-connectors/4776-male-pin-for-case-socket-raster-25mm-10pcs-5904422303181.html)
 
 <p align="center"><img src="../../img/pin-male-raster-254mm.webp" alt="Female Pin Raster" width="40%"/></p>
@@ -140,6 +142,10 @@ pinMode(LED_PIN, OUTPUT);
 To make the powerbank solution work, we need to make one small adjustment in our code: the LED diode should stay on continuously to create enough power demand and only blink when a signal is received. I’ve already implemented this solution in the code (you can find it within comments) so you don’t have to write it yourself.
 
 ```TIP: You can trick the powerbank in a different way by making the LED diode blink every x seconds. Give it a try!```
+
+3. If the upload fails, the issue might be an old micro USB cable. Even if the cable looks fine, it could be damaged internally. I had this issue before so I bought a completely new micro USB cable and it solved all of my problems.
+4. If you get a port busy error, you can open a Device Manager, find Ports (COM & LPT), locate your device, and disable & enable the driver. This should solve the issue.
+
 
 ## Resources and Inspiration
 <a href="https://electechoz.blogspot.com/2022/01/esp8266-webserver-controller-servo-motor.html">Eleco Techoz</a>
