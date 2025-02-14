@@ -10,9 +10,6 @@ This project aims to create a simple Smart Single-Light Switch controlled via ph
 Sketch made using <a href="https://fritzing.org/">Fritzing Software</a>
 <p align="center"><img src="../../img/General-sketch.png" alt="General sketch" width="80%"/></p>
 
-Schematic made using <a href="https://fritzing.org/">Fritzing Software</a>
-<p align="center"><img src="../../img/General-schematic.png" alt="General schematic" width="50%"/></p>
-
 ## Used Hardware
 - [WiFi Module ESP8266 + NodeMCU v3](https://botland.store/esp8266-wifi-modules/8241-esp8266-wifi-module-nodemcu-v3-5904422300630.html)
 
@@ -64,7 +61,6 @@ Schematic made using <a href="https://fritzing.org/">Fritzing Software</a>
 ### Version with batteries
 <p align="center"><img src="../../img/version-with-batteries.jpg" alt="Version with batteries" width="80%"/></p>
 <p align="center"><img src="../../img/Batteries-sketch.png" alt="Sketch with batteries" width="80%"/></p>
-<p align="center"><img src="../../img/Batteries-schematic.png" alt="Schematic with batteries" width="40%"/></p>
 
 - [4 x AA (R6 LR6) alkaline battery](https://botland.store/batteries/9343-everactive-pro-aa-r6-lr6-alkaline-battery-4pcs-5903205770974.html)
 
