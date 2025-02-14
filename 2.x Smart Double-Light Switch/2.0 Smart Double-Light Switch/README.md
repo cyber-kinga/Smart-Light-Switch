@@ -92,11 +92,6 @@ You can delete the ```blinkLed()``` function along with its calls, as well as th
 pinMode(LED_PIN, OUTPUT);
 ```
 
-<p align="center"><img src="../../img/" alt="Version without diode" width="80%"/></p>
-
-### Version without breadboard
-<p align="center"><img src="../../img/" alt="Version without breadboard" width="80%"/></p>
-
 ## Hardware Documentation
 - [NodeMCU](https://github.com/nodemcu)
 
