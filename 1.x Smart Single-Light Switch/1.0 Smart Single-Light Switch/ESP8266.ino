@@ -6,7 +6,7 @@
 */
 #include <ESP8266WebServer.h>  // For setting up a simple web server
 #include <ESP8266WiFi.h>       // For enabling ESP8266 to create a Wi-Fi network
-#include <Servo.h>             // For controlling servo motors 
+#include <Servo.h>             // For controlling servomotor
 
 // GPIO pins definition for the servo and LED diode
 #define SERVO_PIN D1 
