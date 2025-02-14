@@ -6,7 +6,7 @@
 */
 #include <ESP8266WebServer.h>  // For setting up a simple web server
 #include <ESP8266WiFi.h>       // For enabling ESP8266 to create a Wi-Fi network
-#include <Servo.h>             // For controlling servo motors 
+#include <Servo.h>             // For controlling servomotors 
 
 // GPIO pins definition for two servos and LED diode
 #define SERVO1_PIN D1 
@@ -47,12 +47,18 @@ const char Index[] PROGMEM = R"=====(
       .container {
         margin-top: 50px;
       }
-      .light1 {
+      .lightLeftOn, .lightRightOn {
         background-color: #1cb4fa;
       }
-      .light2 {
-        background-color: #048ac8;
+      .lightLeftOff, .lightRightOff {
+        background-color: #0479af;
         margin-top: 5px;
+      }
+      .lightLeftOn, .lightLeftOff {
+        margin-right: 10px;
+      }
+      .lightRightOn, .lightRightOff {
+        margin-left: 10px;
       }
     </style>
   </head>
@@ -60,11 +66,11 @@ const char Index[] PROGMEM = R"=====(
     <div class="container">
       <h1>Control your Single-Light Smart Switch 1.0</h1>
       <br><br>
-      <button onclick="sendSignal('on1')" class="btn btn-on light1">On</button>
-      <button onclick="sendSignal('on2')" class="btn btn-on light1">On</button>
+      <button onclick="sendSignal('on2')" class="btn btn-on lightLeftOn">On</button>
+      <button onclick="sendSignal('on1')" class="btn btn-on lightRightOn">On</button>
       <br>
-      <button onclick="sendSignal('off1')" class="btn btn-off light2">Off</button>
-      <button onclick="sendSignal('off2')" class="btn btn-off light2">Off</button>
+      <button onclick="sendSignal('off2')" class="btn btn-off lightLeftOff">Off</button>
+      <button onclick="sendSignal('off1')" class="btn btn-off lightRightOff">Off</button>
     </div>
     
     <script>
@@ -99,11 +105,11 @@ void blinkLed() {
   digitalWrite(LED_PIN, HIGH); // Turn LED back on
 }*/
 
-// Function to control the servo motor based on received signal
+// Function to control servomotors based on received signal
 void controlServo() {
   String signal = webServer.arg("action"); // Get the "action" parameter from the HTTP request
 
-  if (signal == "on1") {        // If the signal says "on"
+  if (signal == "on1") {        // If the signal says "on1"
     blinkLed();                 // Blink LED diode to indicate action
     servoMotor1.write(90);      // Move servo1 to 90 degrees
     delay(500);                 // Wait 500ms
@@ -111,7 +117,7 @@ void controlServo() {
     delay(500);                 // Wait 500ms
     servoMotor1.write(90);      // Return to 90 degrees
   } 
-  else if (signal == "off1") {  // If the signal says "off"
+  else if (signal == "off1") {  // If the signal says "off1"
     blinkLed();                 // Blink LED diode to indicate action
     servoMotor1.write(90);      // Move servo1 to 90 degrees
     delay(500);                 // Wait 500ms
@@ -119,7 +125,7 @@ void controlServo() {
     delay(500);                 // Wait 500ms
     servoMotor1.write(90);      // Return to 90 degrees
   } 
-  else if (signal == "on2") {   // If the signal says "on"
+  else if (signal == "on2") {   // If the signal says "on2"
     blinkLed();                 // Blink LED diode to indicate action
     servoMotor2.write(90);      // Move servo2 to 90 degrees
     delay(500);                 // Wait 500ms
@@ -127,7 +133,7 @@ void controlServo() {
     delay(500);                 // Wait 500ms
     servoMotor2.write(90);      // Return to 90 degrees
   } 
-  else if (signal == "off2") {  // If the signal says "off"
+  else if (signal == "off2") {  // If the signal says "off2"
     blinkLed();                 // Blink LED diode to indicate action
     servoMotor2.write(90);      // Move servo2 to 90 degrees
     delay(500);                 // Wait 500ms
@@ -144,8 +150,8 @@ void controlServo() {
   The setup() function will only run once, after each powerup or reset of the Arduino board. 
 */
 void setup() {
-  servoMotor1.attach(SERVO1_PIN); // Attach the servo motor 1 to its pin
-  servoMotor2.attach(SERVO2_PIN); // Attach the servo motor 2 to its pin
+  servoMotor1.attach(SERVO1_PIN); // Attach the servomotor 1 to its pin
+  servoMotor2.attach(SERVO2_PIN); // Attach the servomotor 2 to its pin
   pinMode(LED_PIN, OUTPUT);     // Set the LED diode pin as an output
 
   // Uncomment the line below when using a powerbank, otherwise - you can delete it.
