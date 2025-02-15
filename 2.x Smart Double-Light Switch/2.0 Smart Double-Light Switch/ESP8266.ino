@@ -129,7 +129,7 @@ void controlServo() {
     blinkLed();                 // Blink LED diode to indicate action
     servoMotor2.write(90);      // Move servo2 to 90 degrees
     delay(500);                 // Wait 500ms
-    servoMotor2.write(120);     // Move servo2 to 120 degrees (or 60 degrees)
+    servoMotor2.write(60);     // Move servo2 to 120 degrees (or 60 degrees)
     delay(500);                 // Wait 500ms
     servoMotor2.write(90);      // Return to 90 degrees
   } 
@@ -137,7 +137,7 @@ void controlServo() {
     blinkLed();                 // Blink LED diode to indicate action
     servoMotor2.write(90);      // Move servo2 to 90 degrees
     delay(500);                 // Wait 500ms
-    servoMotor2.write(60);      // Move servo2 to 60 degrees (or 120 degrees)
+    servoMotor2.write(120);      // Move servo2 to 60 degrees (or 120 degrees)
     delay(500);                 // Wait 500ms
     servoMotor2.write(90);      // Return to 90 degrees
   }
