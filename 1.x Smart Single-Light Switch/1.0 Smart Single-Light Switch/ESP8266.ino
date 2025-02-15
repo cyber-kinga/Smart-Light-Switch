@@ -13,7 +13,7 @@
 #define LED_PIN D5    
 
 // Wi-Fi credentials for Access Point mode
-const char* WIFI_SSID = "ESP8266-WiFi-Name";         // Set custom ESP8266 Wi-Fi name  
+const char* WIFI_SSID = "ESP8266-WiFi-Name";         // Set custom ESP8266 Wi-Fi name, for example "Light"  
 const char* WIFI_PASSWORD = "ESP8266-WiFi-Password"; // Set custom and strong ESP8266 Wi-Fi password
 
 Servo servoMotor;               // Create a servo object
