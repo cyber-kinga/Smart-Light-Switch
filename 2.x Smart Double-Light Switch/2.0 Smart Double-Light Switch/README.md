@@ -2,7 +2,7 @@
 This project aims to create a simple Smart Double-Light Switch controlled via phone/computer/tablet using wifi at 192.168.4.1 address.
 
 ## YouTube tutorial
-<a href="#">Click here</a> to see video tutorial
+<a href="https://youtu.be/Simqk_TsyZI">Click here</a> to see video tutorial
 
 ## Previous YouTube tutorial (watch it before moving to this tutorial)
 <a href="https://youtu.be/bshRV9Qr4Ys">Click here</a> to see previous video tutorial
