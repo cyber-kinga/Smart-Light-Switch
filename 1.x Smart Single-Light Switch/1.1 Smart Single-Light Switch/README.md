@@ -7,15 +7,13 @@ This project aims to create a Smart Single-Light Switch controlled via phone/com
 ## YouTube tutorial
 <a href="#">#todo Click here to see video tutorial </a>
 
-## Plan
-<a href="https://fritzing.org/">(Fritzing Software)</a>
+## Sketch
 
 <p align="center"><img src="../../img/" alt="#" width="90%"/>#todo</p>
 
-## Schematic
-<a href="https://fritzing.org/">(Fritzing Software)</a>
+<a href="https://fritzing.org/">Sketch made using (Fritzing Software)</a>
 
-<p align="center"><img src="../../img/" alt="#" width="80%"/>#todo</p>
+<p align="center"><img src="../../img/" alt="#" width="90%"/>#todo</p>
 
 ## Used Hardware
 - [WiFi Module ESP8266 + NodeMCU v3](https://botland.com.pl/moduly-wifi-esp8266/8241-modul-wifi-esp8266-nodemcu-v3-5904422300630.html)
@@ -50,28 +48,28 @@ This project aims to create a Smart Single-Light Switch controlled via phone/com
 
 <p align="center"><img src="../../img/breadboard-justpi-400-holes.webp" alt="Breadboard" width="40%"/></p>
 
+- Micro USB cable
+
+<p align="center"><img src="../../img/micro-usb-cable.jpg" alt="Micro USB" width="40%"/></p>
+
 ## Power
 ### Version with charger
+<p align="center"><img src="../../img/version-with-charger.jpg" alt="Version with charger" width="80%"/></p>
 
 - Charger
 
 <p align="center"><img src="../../img/charger.jpg" alt="Charger" width="40%"/></p>
 
-- Micro USB cable
-
-<p align="center"><img src="../../img/micro-usb-cable.jpg" alt="Micro USB" width="40%"/></p>
-
 ### Version with powerbank
+<p align="center"><img src="../../img/version-with-powerbank.jpg" alt="Version with charger" width="80%"/></p>
 
 - Standard powerbank
 
 <p align="center"><img src="../../img/powerbank.jpg" alt="Long wires" width="40%"/></p>
 
-- Micro USB cable
-
-<p align="center"><img src="../../img/micro-usb-cable.jpg" alt="Micro USB" width="40%"/></p>
-
 ### Version with batteries
+<p align="center"><img src="../../img/version-with-batteries.jpg" alt="Version with batteries" width="100%"/></p>
+<p align="center"><img src="../../img/Batteries-sketch.png" alt="Sketch with batteries" width="100%"/></p>
 
 - [4 x AA (R6 LR6) alkaline battery](https://botland.store/batteries/9343-everactive-pro-aa-r6-lr6-alkaline-battery-4pcs-5903205770974.html)
 
@@ -81,6 +79,8 @@ This project aims to create a Smart Single-Light Switch controlled via phone/com
 
 <p align="center"><img src="../../img/battery-holder-4-x-aa-r6.webp" alt="Baterry holder" width="40%"/></p>
 
+If you're using a battery basket, it can be delivered without pre-installed connectors (like above) — in that case you can use male pin rasters and BLS connectors to create the connectors yourself.
+
 - [Male Pin Raster](https://botland.store/bls-connectors/4776-male-pin-for-case-socket-raster-25mm-10pcs-5904422303181.html)
 
 <p align="center"><img src="../../img/pin-male-raster-254mm.webp" alt="Female Pin Raster" width="40%"/></p>
@@ -89,27 +89,70 @@ This project aims to create a Smart Single-Light Switch controlled via phone/com
 
 <p align="center"><img src="../../img/bls-connector.webp" alt="BLS" width="40%"/></p>
 
-#### Plan and schematic with batteries
+### Version without diode
+You can delete the ```blinkLed()``` function along with its calls, as well as the following lines:
+```c
+#define LED_PIN D5  
+```
+```c
+pinMode(LED_PIN, OUTPUT);
+```
 
-<p align="center"><img src="../../img/" alt="Plan with batteries" width="80%"/>#todo</p>
+<p align="center"><img src="../../img/version-without-diode.jpg" alt="Version with charger" width="80%"/></p>
 
-<p align="center"><img src="../../img/" alt="Schematic with batteries" width="40%"/>#todo</p>
+### Version without breadboard
+<p align="center"><img src="../../img/version-without-breadboard.jpg" alt="Version with charger" width="80%"/></p>
+
+## Accesing the web page
+Type 192.168.4.1 address in you browser to control your device.
 
 ## Hardware Documentation
-[NodeMCU](https://nodemcu.readthedocs.io/en/release/)
+- [NodeMCU](https://nodemcu.readthedocs.io/en/release/)
+- [Servo](http://www.datasheet-pdf.com/PDF/SG90-Datasheet-TowerPro-791970)
+- [BH1750 Module](https://nodemcu.readthedocs.io/en/release/lua-modules/bh1750/)
 
-[BH1750 Module](https://nodemcu.readthedocs.io/en/release/lua-modules/bh1750/)
-
-[Servo](http://www.datasheet-pdf.com/PDF/SG90-Datasheet-TowerPro-791970)
+## Software Documentation
+- [github.com/esp8266/Arduino](https://github.com/esp8266/Arduino)
+- [docs.arduino.cc](https://docs.arduino.cc/)
+  - [docs.arduino.cc/programming](https://docs.arduino.cc/programming/)
+  - [docs.arduino.cc/libraries](https://docs.arduino.cc/libraries/) 
 
 ## Used Tools
 - <a href="https://fritzing.org/">Fritzing Software</a>
-    - <a href="https://github.com/roman-miniailov/nodemcu-v3-fritzing">NodeMCUv3 Wifi ESP86266 component</a>
-    - <a href="https://github.com/vdemay/fritzing-parts/tree/master/parts">BH1750 component</a>
+    - <a href="https://github.com/roman-miniailov/nodemcu-v3-fritzing">NodeMCUv3 Wifi ESP86266</a> component
+    - <a href="https://robdomo.com/ressources/fritzing-parts/tower-pro-sg90-servo/">Serwo SG-90</a> component
+    - <a href="https://forum.fritzing.org/t/bh1750-light-itensity-sensor-part-submit/18518">BH1750</a> component
 - <a href="https://cloud.arduino.cc/">Arduino Cloud - Online Editor</a>
+    - <a href="https://docs.arduino.cc/arduino-cloud/hardware/cloud-agent/">Arduino Cloud Agent</a> - it is a required plugin that enables serial communication between your board and the Arduino Cloud accessed via your web browser
 
-## My recommendations
-In above video presentation I used PowerBank insted of typical USB-C charger, mainly because of another little experiment I was conducting by the way of this project. Also, my recommendation is to buy 4 long wires to connect BH1750 and NodeMCU v3 insted of using many male-to-female wires since it causes many connecting problems during installation (I was simply too lazy :)).
+## My recommendations and tips
+1. The angles in the following code assume that the servo motor is mounted with its sticker facing the breadboard. If the mounting orientation is different, the movement directions may need to be adjusted (possibly requiring swapping 60 and 120 degrees).
+
+```c
+  if (signal == "on") {         // If the signal says "on"
+    blinkLed();                 // Blink LED diode to indicate action
+    servoMotor.write(90);       // Move servo to 90 degrees
+    delay(500);                 // Wait 500ms
+    servoMotor.write(120);      // Move servo to 120 degrees (or 60 degrees)
+    delay(500);                 // Wait 500ms
+    servoMotor.write(90);       // Return to 90 degrees
+  } 
+  else if (signal == "off") {   // If the signal says "off"
+    blinkLed();                 // Blink LED diode to indicate action
+    servoMotor.write(90);       // Move servo to 90 degrees
+    delay(500);                 // Wait 500ms
+    servoMotor.write(60);       // Move servo to 60 degrees (or 120 degrees)
+    delay(500);                 // Wait 500ms
+    servoMotor.write(90);       // Return to 90 degrees
+  }
+```
+2. Keep in mind that if you plan to power your device using a ```powerbank```, it won’t work without the LED diode. That’s because the microcontroller and servo together don’t draw enough power, causing a standard powerbank to quickly shut off, assuming there’s nothing to power.
+To make the powerbank solution work, we need to make one small adjustment in our code: the LED diode should stay on continuously to create enough power demand and only blink when a signal is received. I’ve already implemented this solution in the code (you can find it within comments) so you don’t have to write it yourself.
+
+```TIP: You can trick the powerbank in a different way by making the LED diode blink every x seconds. Give it a try!```
+
+3. If the upload fails, the issue might be an old micro USB cable. Even if the cable looks fine, it could be damaged internally. I had this issue before so I bought a completely new micro USB cable and it solved all of my problems.
+4. If you get a port busy error, you can open a Device Manager, find Ports (COM & LPT), locate your device, and disable & enable the driver. This should solve the issue.
 
 ## Resources and Inspiration
 <a href="https://electechoz.blogspot.com/2022/01/esp8266-webserver-controller-servo-motor.html">Eleco Techoz</a>
