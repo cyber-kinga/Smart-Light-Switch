@@ -44,7 +44,7 @@ const char Index[] PROGMEM = R"=====(
         padding: 20px 55px;
         text-align: center;
         text-decoration: none;
-        border: 5px solid transparent; /* żeby podświetlenie nie przesuwało */
+        border: 5px solid transparent;
         border: none;
         cursor: pointer;
         font-weight: bold;
@@ -162,7 +162,7 @@ void setup() {
   // digitalWrite(LED_PIN, HIGH);  // LED diode stays constantly ON at startup
 
   Wire.begin(SDA_PIN, SCL_PIN); // Initialize I2C communication on the defined SDA and SCL pins
-  lightIntensitySensor.begin(); // Initialize the BH1750 light sensor so it’s ready to take readings
+  lightIntensitySensor.begin(); // Initialize the BH1750 light inensity sensor so it’s ready to take readings
 
   // Start the ESP8266 as an Access Point (AP) mode
   WiFi.softAP(WIFI_SSID, WIFI_PASSWORD); 
