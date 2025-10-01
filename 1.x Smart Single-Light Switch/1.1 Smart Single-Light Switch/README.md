@@ -98,10 +98,8 @@ You can delete the ```blinkLed()``` function along with its calls, as well as th
 pinMode(LED_PIN, OUTPUT);
 ```
 
-<p align="center"><img src="../../img/" alt="Version without diode" width="80%"/>todo</p>
-
 ### Version without breadboard
-<p align="center"><img src="../../img/" alt="Version without breadboard" width="80%"/>todo</p>
+You can also connect components directly without using breadboard.
 
 ## Accesing the web page
 Type 192.168.4.1 address in you browser to control your device.
