@@ -13,7 +13,7 @@ This project aims to create a Smart Single-Light Switch controlled via phone/com
 
 Sketch made using <a href="https://fritzing.org/">(Fritzing Software)</a>
 
-<p align="center"><img src="../../img/" alt="#" width="90%"/>#todo</p>
+<p align="center"><img src="../../img/general-sketch3.jpg" alt="General sketch" width="90%"/></p>
 
 ## Used Hardware
 - [WiFi Module ESP8266 + NodeMCU v3](https://botland.com.pl/moduly-wifi-esp8266/8241-modul-wifi-esp8266-nodemcu-v3-5904422300630.html)
@@ -69,7 +69,7 @@ Sketch made using <a href="https://fritzing.org/">(Fritzing Software)</a>
 
 ### Version with batteries
 <p align="center"><img src="../../img/version-with-batteries.jpg" alt="Version with batteries" width="100%"/></p>
-<p align="center"><img src="../../img/Batteries-sketch.png" alt="Sketch with batteries" width="100%"/></p>
+<p align="center"><img src="../../img/batteries-sketch3.jpg" alt="Sketch with batteries" width="100%"/></p>
 
 - [4 x AA (R6 LR6) alkaline battery](https://botland.store/batteries/9343-everactive-pro-aa-r6-lr6-alkaline-battery-4pcs-5903205770974.html)
 
