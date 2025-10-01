@@ -14,7 +14,7 @@
 #define SERVO_PIN D1 
 #define LED_PIN D5
 #define SDA_PIN D3 
-#define SCL_PIN D2  
+#define SCL_PIN D4  
 
 // Wi-Fi credentials for Access Point (AP) mode
 const char* WIFI_SSID = "ESP8266-WiFi-Name";         // Set custom ESP8266 Wi-Fi name, for example "Light"  
