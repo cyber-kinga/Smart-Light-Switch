@@ -91,6 +91,8 @@ You can delete the ```blinkLed()``` function along with its calls, as well as th
 ```c
 pinMode(LED_PIN, OUTPUT);
 ```
+### Version without breadboard
+You can also connect components directly without using breadboard.
 
 ## Accesing the web page
 Type 192.168.4.1 address in you browser to control your device.
