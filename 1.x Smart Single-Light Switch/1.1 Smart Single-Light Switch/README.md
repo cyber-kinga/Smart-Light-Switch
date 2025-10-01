@@ -54,21 +54,21 @@ Sketch made using <a href="https://fritzing.org/">(Fritzing Software)</a>
 
 ## Power
 ### Version with charger
-<p align="center"><img src="../../img/version-with-charger.jpg" alt="Version with charger" width="80%"/></p>
+<p align="center"><img src="../../img/" alt="Version with charger" width="80%"/>todo</p>
 
 - Charger
 
 <p align="center"><img src="../../img/charger.jpg" alt="Charger" width="40%"/></p>
 
 ### Version with powerbank
-<p align="center"><img src="../../img/version-with-powerbank.jpg" alt="Version with charger" width="80%"/></p>
+<p align="center"><img src="../../img/" alt="Version with powerbank" width="80%"/>todo</p>
 
 - Standard powerbank
 
 <p align="center"><img src="../../img/powerbank.jpg" alt="Long wires" width="40%"/></p>
 
 ### Version with batteries
-<p align="center"><img src="../../img/version-with-batteries.jpg" alt="Version with batteries" width="100%"/></p>
+<p align="center"><img src="../../img/" alt="Version with batteries" width="100%"/>todo</p>
 <p align="center"><img src="../../img/batteries-sketch3.jpg" alt="Sketch with batteries" width="100%"/></p>
 
 - [4 x AA (R6 LR6) alkaline battery](https://botland.store/batteries/9343-everactive-pro-aa-r6-lr6-alkaline-battery-4pcs-5903205770974.html)
@@ -98,10 +98,10 @@ You can delete the ```blinkLed()``` function along with its calls, as well as th
 pinMode(LED_PIN, OUTPUT);
 ```
 
-<p align="center"><img src="../../img/version-without-diode.jpg" alt="Version with charger" width="80%"/></p>
+<p align="center"><img src="../../img/" alt="Version without diode" width="80%"/>todo</p>
 
 ### Version without breadboard
-<p align="center"><img src="../../img/version-without-breadboard.jpg" alt="Version with charger" width="80%"/></p>
+<p align="center"><img src="../../img/" alt="Version without breadboard" width="80%"/>todo</p>
 
 ## Accesing the web page
 Type 192.168.4.1 address in you browser to control your device.
