@@ -52,7 +52,7 @@ Sketch made using <a href="https://fritzing.org/">Fritzing Software</a>
 <p align="center"><img src="../../img/charger.jpg" alt="Charger" width="40%"/></p>
 
 ### Version with powerbank
-<p align="center"><img src="../../img/version-with-powerbank.jpg" alt="Version with charger" width="80%"/></p>
+<p align="center"><img src="../../img/version-with-powerbank.jpg" alt="Version with powerbank" width="80%"/></p>
 
 - Standard powerbank
 
@@ -89,10 +89,10 @@ You can delete the ```blinkLed()``` function along with its calls, as well as th
 pinMode(LED_PIN, OUTPUT);
 ```
 
-<p align="center"><img src="../../img/version-without-diode.jpg" alt="Version with charger" width="80%"/></p>
+<p align="center"><img src="../../img/version-without-diode.jpg" alt="Version without diode" width="80%"/></p>
 
 ### Version without breadboard
-<p align="center"><img src="../../img/version-without-breadboard.jpg" alt="Version with charger" width="80%"/></p>
+<p align="center"><img src="../../img/version-without-breadboard.jpg" alt="Version without breadboard" width="80%"/></p>
 
 ## Accesing the web page
 Type 192.168.4.1 address in you browser to control your device.
