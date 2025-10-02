@@ -7,10 +7,10 @@
 #include <ESP8266WebServer.h>  // For setting up a simple web server
 #include <ESP8266WiFi.h>       // For enabling ESP8266 to create a Wi-Fi network
 #include <Servo.h>             // For controlling servomotor
-#include <BH1750.h>            // For controlling light intensity sensor
-#include <Wire.h>              // Library required by BH1750 light intensity sensor
+#include <BH1750.h>            // For BH1750 light intensity sensor
+#include <Wire.h>              // For I2C communication with BH1750
 
-// GPIO pins definition for the servo, LED diode and light intensity sensor pins
+// GPIO pins definition for the servo, LED diode and BH1750 pins
 #define SERVO_PIN D1 
 #define LED_PIN D5
 #define SDA_PIN D3 
@@ -22,7 +22,7 @@ const char* WIFI_PASSWORD = "ESP8266-WiFi-Password"; // Set custom and strong ES
 
 Servo servoMotor;               // Create a servo object
 ESP8266WebServer webServer(80); // Create a web server object on port 80
-BH1750 lightIntensitySensor;    // Create a light intensity sensor object
+BH1750 lightIntensitySensor;    // Create a BH1750 object
 
 // HTML page stored in program memory (PROGMEM) and available at the 192.168.4.1 address
 const char Index[] PROGMEM = R"=====(
@@ -44,7 +44,6 @@ const char Index[] PROGMEM = R"=====(
         padding: 20px 55px;
         text-align: center;
         text-decoration: none;
-        border: 5px solid transparent;
         border: none;
         cursor: pointer;
         font-weight: bold;
@@ -144,10 +143,10 @@ void controlServo() {
   webServer.send(200, "text/plain", "OK"); // Send 200 OK response back to the client
 }
 
-// Function to handle client request for light intensity (lux variable)
+// Function to read the current light level and send it back to the web client
 void handleLightIntensity() {
   float lux = lightIntensitySensor.readLightLevel();    // Read the current light level from the BH1750 sensor (in lux)
-  webServer.send(200, "text/plain", String(lux));       // Send the lux value back to the web client as plain text
+  webServer.send(200, "text/plain", String(lux));       // Send the lux value back to the web client as plain text. The web client uses parseFloat() to convert it into a number 
 }
 
 /* The setup() function is called when a sketch starts. 
@@ -170,7 +169,7 @@ void setup() {
   // Define web server routes
   webServer.on("/", webApp);                                 // Handle requests using webApp function for the main webpage available at the following address http:/192.168.4.1/
   webServer.on("/moveServo", controlServo);                  // Handle requests for servo movement available at the following address http:/192.168.4.1/moveServo
-  webServer.on("/getLightIntensity", handleLightIntensity);  // Handle requests for light intensity sensor available at the following address http:/192.168.4.1/getLightIntensity
+  webServer.on("/getLightIntensity", handleLightIntensity);  // Handle requests for BH1750 available at the following address http:/192.168.4.1/getLightIntensity --> you can see here the current light level in lux!
   
   webServer.begin(); // Start the web server 
 }
