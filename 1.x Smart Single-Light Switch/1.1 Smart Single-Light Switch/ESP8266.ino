@@ -161,7 +161,7 @@ void setup() {
   // digitalWrite(LED_PIN, HIGH);  // LED diode stays constantly ON at startup
 
   Wire.begin(SDA_PIN, SCL_PIN); // Initialize I2C communication on the defined SDA and SCL pins
-  lightIntensitySensor.begin(); // Initialize the BH1750 light inensity sensor so it’s ready to take readings
+  lightIntensitySensor.begin(); // Initialize the BH1750 light intensity sensor so it’s ready to take readings
 
   // Start the ESP8266 as an Access Point (AP) mode
   WiFi.softAP(WIFI_SSID, WIFI_PASSWORD); 
@@ -169,7 +169,7 @@ void setup() {
   // Define web server routes
   webServer.on("/", webApp);                                 // Handle requests using webApp function for the main webpage available at the following address http:/192.168.4.1/
   webServer.on("/moveServo", controlServo);                  // Handle requests for servo movement available at the following address http:/192.168.4.1/moveServo
-  webServer.on("/getLightIntensity", handleLightIntensity);  // Handle requests for BH1750 available at the following address http:/192.168.4.1/getLightIntensity --> you can see here the current light level in lux!
+  webServer.on("/getLightIntensity", handleLightIntensity);  // Handle requests for BH1750 available at the following address http:/192.168.4.1/getLightIntensity where you can see the current light level in lux
   
   webServer.begin(); // Start the web server 
 }
