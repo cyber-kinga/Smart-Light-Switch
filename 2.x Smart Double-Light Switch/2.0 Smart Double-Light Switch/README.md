@@ -7,7 +7,7 @@ This project aims to create a simple Smart Double-Light Switch controlled via ph
 ## Previous YouTube tutorial (watch it before moving to this tutorial)
 <a href="https://youtu.be/bshRV9Qr4Ys">Click here</a> to see previous video tutorial
 
-## Sketch & Schematic
+## Sketch
 <p align="center"><img src="../../img/photo-sketch.jpg" alt="Photo sketch" width="100%"/></p>
 
 Sketch made using <a href="https://fritzing.org/">Fritzing Software</a>
@@ -158,8 +158,8 @@ To make the powerbank solution work, we need to make one small adjustment in our
 
 ```TIP: You can trick the powerbank in a different way by making the LED diode blink every x seconds. Give it a try!```
 
-3. If the upload fails, the issue might be an old micro USB cable. Even if the cable looks fine, it could be damaged internally. I had this issue before so I bought a completely new micro USB cable and it solved all of my problems.
-4. If you get a port busy error, you can open a Device Manager, find Ports (COM & LPT), locate your device, and disable & enable the driver. This should solve the issue.
+3. **If the upload fails**, the issue might be an old micro USB cable. Even if the cable looks fine, it could be damaged internally. I had this issue before so I bought a completely new micro USB cable and it solved all of my problems.
+4. **If you get a port busy error**, you can open a Device Manager, find Ports (COM & LPT), locate your device, and disable & enable the driver. This should solve the issue.
 
 ## Resources and Inspiration
 <a href="https://electechoz.blogspot.com/2022/01/esp8266-webserver-controller-servo-motor.html">Eleco Techoz</a>
