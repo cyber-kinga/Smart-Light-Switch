@@ -1,11 +1,11 @@
-# Smart Single-Light Switch 1.1
-This project aims to create a Smart Single-Light Switch controlled via phone/computer/tablet using wifi with light monitoring.
-
-## YouTube presentation
-<a href="https://youtube.com/shorts/5B9hfxMmvcQ?feature=share3">Click here to see video presentation</a>
+# Smart Single-Light Switch 2.1
+This project aims to create a Smart Double-Light Switch controlled via phone/computer/tablet using wifi at 192.168.4.1 address with light monitoring.
 
 ## YouTube tutorial
 <a href="https://youtube.com/shorts/5B9hfxMmvcQ?feature=share3">Click here to see video tutorial </a>
+
+## Previous YouTube tutorial (watch it before moving to this tutorial)
+<a href="https://youtube.com/shorts/5B9hfxMmvcQ?feature=share3">Click here to see previous video tutorial</a>
 
 ## Sketch
 
@@ -28,7 +28,7 @@ Sketch made using <a href="https://fritzing.org/">(Fritzing Software)</a>
 
 <p align="center"><img src="../../img/light-sensor-bh1750.webp" alt="BH1750" width="40%"/></p>
 
-- [Serwo SG-90 - micro - 180 degrees](https://botland.com.pl/serwa-typu-micro/13128-serwo-sg-90-micro-180-5904422350338.html)
+- [2 x Serwo SG-90 - micro - 180 degrees](https://botland.com.pl/serwa-typu-micro/13128-serwo-sg-90-micro-180-5904422350338.html)
 
 <p align="center"><img src="../../img/serwo-sg-90-micro-180.webp" alt="Servo" width="40%"/></p>
 
@@ -141,21 +141,37 @@ You can add a webpage shortcut to your phone’s home screen for quick access.
 1. The angles in the following code assume that the servo motor is mounted with its sticker facing the breadboard. If the mounting orientation is different, the movement directions may need to be adjusted (possibly requiring swapping 60 and 120 degrees).
 
 ```c
-  if (signal == "on") {         // If the signal says "on"
+  if (signal == "on1") {        // If the signal says "on1"
     blinkLed();                 // Blink LED diode to indicate action
-    servoMotor.write(90);       // Move servo to 90 degrees
+    servoMotor1.write(90);      // Move servo1 to 90 degrees
     delay(500);                 // Wait 500ms
-    servoMotor.write(120);      // Move servo to 120 degrees (or 60 degrees)
+    servoMotor1.write(120);     // Move servo1 to 120 degrees (or 60 degrees)
     delay(500);                 // Wait 500ms
-    servoMotor.write(90);       // Return to 90 degrees
+    servoMotor1.write(90);      // Return to 90 degrees
   } 
-  else if (signal == "off") {   // If the signal says "off"
+  else if (signal == "off1") {  // If the signal says "off1"
     blinkLed();                 // Blink LED diode to indicate action
-    servoMotor.write(90);       // Move servo to 90 degrees
+    servoMotor1.write(90);      // Move servo1 to 90 degrees
     delay(500);                 // Wait 500ms
-    servoMotor.write(60);       // Move servo to 60 degrees (or 120 degrees)
+    servoMotor1.write(60);      // Move servo1 to 60 degrees (or 120 degrees)
     delay(500);                 // Wait 500ms
-    servoMotor.write(90);       // Return to 90 degrees
+    servoMotor1.write(90);      // Return to 90 degrees
+  } 
+  else if (signal == "on2") {   // If the signal says "on2"
+    blinkLed();                 // Blink LED diode to indicate action
+    servoMotor2.write(90);      // Move servo2 to 90 degrees
+    delay(500);                 // Wait 500ms
+    servoMotor2.write(120);     // Move servo2 to 120 degrees (or 60 degrees)
+    delay(500);                 // Wait 500ms
+    servoMotor2.write(90);      // Return to 90 degrees
+  } 
+  else if (signal == "off2") {  // If the signal says "off2"
+    blinkLed();                 // Blink LED diode to indicate action
+    servoMotor2.write(90);      // Move servo2 to 90 degrees
+    delay(500);                 // Wait 500ms
+    servoMotor2.write(60);      // Move servo2 to 60 degrees (or 120 degrees)
+    delay(500);                 // Wait 500ms
+    servoMotor2.write(90);      // Return to 90 degrees
   }
 ```
 2. Keep in mind that if you plan to power your device using a ```powerbank```, it won’t work without the LED diode. That’s because the microcontroller and servo together don’t draw enough power, causing a standard powerbank to quickly shut off, assuming there’s nothing to power.
@@ -163,8 +179,8 @@ To make the powerbank solution work, we need to make one small adjustment in our
 
 ```TIP: You can trick the powerbank in a different way by making the LED diode blink every x seconds. Give it a try!```
 
-3. If the upload fails, the issue might be an old micro USB cable. Even if the cable looks fine, it could be damaged internally. I had this issue before so I bought a completely new micro USB cable and it solved all of my problems.
-4. If you get a port busy error, you can open a Device Manager, find Ports (COM & LPT), locate your device, and disable & enable the driver. This should solve the issue.
+3. **If the upload fails**, the issue might be an old micro USB cable. Even if the cable looks fine, it could be damaged internally. I had this issue before so I bought a completely new micro USB cable and it solved all of my problems.
+4. **If you get a port busy error**, you can open a Device Manager, find Ports (COM & LPT), locate your device, and disable & enable the driver. This should solve the issue.
 
 ## Resources and Inspiration
 <a href="https://electechoz.blogspot.com/2022/01/esp8266-webserver-controller-servo-motor.html">Eleco Techoz</a>
