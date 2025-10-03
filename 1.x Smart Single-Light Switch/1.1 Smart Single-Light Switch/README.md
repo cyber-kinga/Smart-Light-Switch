@@ -5,7 +5,7 @@ This project aims to create a Smart Single-Light Switch controlled via phone/com
 <a href="https://youtube.com/shorts/5B9hfxMmvcQ?feature=share3">Click here to see video presentation</a>
 
 ## YouTube tutorial
-<a href="#">#todo Click here to see video tutorial </a>
+<a href="https://youtube.com/shorts/5B9hfxMmvcQ?feature=share3">Click here to see video tutorial </a>
 
 ## Sketch
 
@@ -40,7 +40,7 @@ Sketch made using <a href="https://fritzing.org/">(Fritzing Software)</a>
 
 <p align="center"><img src="../../img/dioda-led-5mm-zolta-10szt.webp" alt="LED" width="40%"/></p>
 
-- [Set of long PVC wire / cable](https://botland.store/pvc-cables/13012-velleman-k-mow-set-of-pvc-wire-cable-10-colors-60m-5410329217679.html)
+- [Set of long PVC wires / cables](https://botland.store/pvc-cables/13012-velleman-k-mow-set-of-pvc-wire-cable-10-colors-60m-5410329217679.html)
 
 <p align="center"><img src="../../img/velleman-k-mow-set-of-pvc-wire-cable-10-colors-60m.webp" alt="Long wires" width="40%"/></p>
 
@@ -48,7 +48,11 @@ Wires / cables can be delivered without pre-installed connectors (like above) â€
 
 - [Male Pin Raster](https://botland.store/bls-connectors/4776-male-pin-for-case-socket-raster-25mm-10pcs-5904422303181.html)
 
-<p align="center"><img src="../../img/pin-male-raster-254mm.webp" alt="Female Pin Raster" width="40%"/></p>
+<p align="center"><img src="../../img/pin-male-raster-254mm.webp" alt="Male Pin Raster" width="40%"/></p>
+
+- [Female Pin Raster](https://botland.store/bls-connectors/4903-female-pin-for-case-raster-254mm-10pcs-5904422303204.html)
+
+<p align="center"><img src="../../img/female-pin-for-case-raster-254mm-10pcs.webp" alt="Female Pin Raster" width="40%"/></p>
   
 - [BLS connectors](https://botland.com.pl/zlacza-bls/5204-zlacze-typu-bls-gniazdo-1x1-5szt-5904422353599.html)
 
@@ -93,7 +97,7 @@ Wires / cables can be delivered without pre-installed connectors (like above) â€
 
 <p align="center"><img src="../../img/battery-holder-4-x-aa-r6.webp" alt="Baterry holder" width="40%"/></p>
 
-A battery basket can be delivered without pre-installed connectors (like above) â€” in that case you can use male pin rasters (or female if you plan to connect the batteries directly to your microcontroller instead of a breadboard) and BLS connectors to create the connectors yourself.
+Similar to long wires, a battery basket can be delivered without pre-installed connectors (like above) â€” in that case you can use male pin rasters (or female if you plan to connect the batteries directly to your microcontroller instead of a breadboard) and BLS connectors to create the connectors yourself.
 
 ### Version without diode
 You can delete the ```blinkLed()``` function along with its calls, as well as the following lines:
