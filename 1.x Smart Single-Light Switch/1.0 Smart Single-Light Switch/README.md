@@ -5,6 +5,9 @@ This project aims to create a simple Smart Single-Light Switch controlled via ph
 ## YouTube tutorial
 <a href="https://youtu.be/bshRV9Qr4Ys">Click here</a> to see video tutorial
 
+## Previous YouTube tutorial (watch it before moving to this tutorial)
+<a href="https://youtu.be/bshRV9Qr4Ys">Click here</a> to see previous video tutorial
+
 ## Sketch
 <p align="center"><img src="../../img/general-version.jpg" alt="Photo sketch" width="100%"/></p>
 
