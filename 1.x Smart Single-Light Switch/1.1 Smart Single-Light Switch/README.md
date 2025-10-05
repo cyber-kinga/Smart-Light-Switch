@@ -117,7 +117,7 @@ Type 192.168.4.1 address in you browser to control your device.
 
 You can add a webpage shortcut to your phone’s home screen for quick access.
 
-<p align="center"><img src="../../img/home-screen-shortcut.jpg" alt="Shortcut on the phone’s home screen" width="30%"/></p>
+<p align="center"><img src="../../img/home-screen-shortcut.jpg" alt="Shortcut on the phone’s home screen" width="50%"/></p>
 
 ## Hardware Documentation
 - [NodeMCU](https://nodemcu.readthedocs.io/en/release/)
