@@ -3,10 +3,10 @@ This project aims to create a Smart Single-Light Switch controlled via phone/com
 <p align="center"><img src="../../img/smart-double-light-switch-1.1.jpg" alt="Presentation" width="100%"/></p>
 
 ## YouTube tutorial
-<a href="https://youtube.com/shorts/5B9hfxMmvcQ?feature=share3">Click here to see video tutorial </a>
+<a href="https://youtube.com/shorts/5B9hfxMmvcQ?feature=share3">Click here</a> to see video tutorial
 
 ## Previous YouTube tutorial (watch it before moving to this tutorial)
-<a href="https://youtu.be/bshRV9Qr4Ys">Click here to see previous video tutorial</a>
+<a href="https://youtu.be/bshRV9Qr4Ys">Click here</a> to see previous video tutorial
 
 ## Sketch
 
