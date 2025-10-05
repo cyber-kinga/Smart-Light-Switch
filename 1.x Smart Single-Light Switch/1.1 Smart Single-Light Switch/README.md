@@ -6,7 +6,7 @@ This project aims to create a Smart Single-Light Switch controlled via phone/com
 <a href="https://youtube.com/shorts/5B9hfxMmvcQ?feature=share3">Click here to see video tutorial </a>
 
 ## Previous YouTube tutorial (watch it before moving to this tutorial)
-<a href="https://youtu.be/bshRV9Qr4Ys">Click here</a> to see previous video tutorial
+<a href="https://youtu.be/bshRV9Qr4Ys">Click here to see previous video tutorial</a>
 
 ## Sketch
 
