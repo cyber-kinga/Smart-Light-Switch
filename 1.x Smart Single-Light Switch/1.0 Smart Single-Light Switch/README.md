@@ -1,5 +1,6 @@
 # Smart Single-Light Switch 1.0
 This project aims to create a simple Smart Single-Light Switch controlled via phone/computer/tablet using wifi.
+<p align="center"><img src="../../img/smart-single-light-switch-1.0.jpg" alt="Presentation" width="100%"/></p>
 
 ## YouTube tutorial
 <a href="https://youtu.be/bshRV9Qr4Ys">Click here</a> to see video tutorial
