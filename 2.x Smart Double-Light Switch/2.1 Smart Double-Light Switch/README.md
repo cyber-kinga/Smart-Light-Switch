@@ -2,10 +2,10 @@
 This project aims to create a Smart Double-Light Switch controlled via phone/computer/tablet using wifi with light monitoring.
 
 ## YouTube tutorial
-<a href="https://youtube.com/shorts/5B9hfxMmvcQ?feature=share3">Click here to see video tutorial </a>
+<a href="https://youtube.com/shorts/5B9hfxMmvcQ?feature=share3">Click here</a> to see video tutorial
 
 ## Previous YouTube tutorial (watch it before moving to this tutorial)
-<a href="https://youtube.com/shorts/5B9hfxMmvcQ?feature=share3">Click here to see previous video tutorial</a>
+<a href="https://youtu.be/Simqk_TsyZI?si=lDl0CX5UQdbnAKDm">Click here</a> to see previous video tutorial
 
 ## Sketch
 
