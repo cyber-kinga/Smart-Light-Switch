@@ -10,7 +10,7 @@ This project aims to create a Smart Single-Light Switch controlled via phone/com
 
 ## Sketch
 
-<p align="center"><img src="../../img/version-general.jpg" alt="#" width="90%"/></p>
+<p align="center"><img src="../../img/version-general.jpg" alt="1.1" width="90%"/></p>
 
 Sketch made using <a href="https://fritzing.org/">(Fritzing Software)</a>
 
