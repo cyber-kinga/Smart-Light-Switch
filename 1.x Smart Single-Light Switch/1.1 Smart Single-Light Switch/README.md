@@ -14,6 +14,8 @@ This project aims to create a Smart Single-Light Switch controlled via phone/com
 
 Sketch made using <a href="https://fritzing.org/">(Fritzing Software)</a>
 
+Download sketch here [(.fzz)](https://github.com/cyber-kinga/Smart-Light-Switch/tree/main/1.x%20Smart%20Single-Light%20Switch/1.1%20Smart%20Single-Light%20Switch/sketches)
+
 <p align="center"><img src="../../img/general-sketch3.jpg" alt="General sketch" width="90%"/></p>
 
 ## Used Hardware
@@ -86,8 +88,10 @@ Wires / cables can be delivered without pre-installed connectors (like above) â€
 
 <p align="center"><img src="../../img/powerbank.jpg" alt="Long wires" width="40%"/></p>
 
-### Version with batteries
+### Version with alkaline batteries
 <p align="center"><img src="../../img/version-batteries.jpg" alt="Version with batteries" width="100%"/></p>
+
+Download sketch here [(.fzz)](https://github.com/cyber-kinga/Smart-Light-Switch/tree/main/1.x%20Smart%20Single-Light%20Switch/1.1%20Smart%20Single-Light%20Switch/sketches)
 <p align="center"><img src="../../img/batteries-sketch3.jpg" alt="Sketch with batteries" width="100%"/></p>
 
 - [4 x AA (R6 LR6) alkaline battery](https://botland.store/batteries/9343-everactive-pro-aa-r6-lr6-alkaline-battery-4pcs-5903205770974.html)
