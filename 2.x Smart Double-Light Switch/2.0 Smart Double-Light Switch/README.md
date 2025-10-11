@@ -13,7 +13,7 @@ This project aims to create a simple Smart Double-Light Switch controlled via ph
 
 Sketch made using <a href="https://fritzing.org/">Fritzing Software</a>
 
-Download sketch here [(.fzz)](https://github.com/cyber-kinga/Smart-Light-Switch/tree/main/1.x%20Smart%20Single-Light%20Switch/1.1%20Smart%20Single-Light%20Switch/sketches)
+Download sketch here [(.fzz)](https://github.com/cyber-kinga/Smart-Light-Switch/tree/main/2.x%20Smart%20Double-Light%20Switch/2.0%20Smart%20Double-Light%20Switch/sketches)
 
 <p align="center"><img src="../../img/general-sketch2.png" alt="General sketch" width="100%"/></p>
 
@@ -68,7 +68,7 @@ Download sketch here [(.fzz)](https://github.com/cyber-kinga/Smart-Light-Switch/
 ### Version with batteries
 <p align="center"><img src="../../img/photo-version-with-batteries.jpg" alt="Version with batteries" width="100%"/></p>
 
-Download sketch here [(.fzz)](https://github.com/cyber-kinga/Smart-Light-Switch/tree/main/1.x%20Smart%20Single-Light%20Switch/1.1%20Smart%20Single-Light%20Switch/sketches)
+Download sketch here [(.fzz)](https://github.com/cyber-kinga/Smart-Light-Switch/tree/main/2.x%20Smart%20Double-Light%20Switch/2.0%20Smart%20Double-Light%20Switch/sketches)
 
 <p align="center"><img src="../../img/sketch-with-batteries2.png" alt="Sketch with batteries" width="100%"/></p>
 
