@@ -14,7 +14,7 @@ This project aims to create a Smart Double-Light Switch controlled via phone/com
 
 Sketch made using <a href="https://fritzing.org/">(Fritzing Software)</a>
 
-Download sketch here [(.fzz)](https://github.com/cyber-kinga/Smart-Light-Switch/tree/main/1.x%20Smart%20Single-Light%20Switch/1.1%20Smart%20Single-Light%20Switch/sketches)
+Download sketch here [(.fzz)](https://github.com/cyber-kinga/Smart-Light-Switch/tree/main/2.x%20Smart%20Double-Light%20Switch/2.1%20Smart%20Double-Light%20Switch/sketches)
 
 <p align="center"><img src="../../img/general-sketch3.jpg" alt="General sketch" width="90%"/></p>
 
@@ -88,10 +88,10 @@ Wires / cables can be delivered without pre-installed connectors (like above) â€
 
 <p align="center"><img src="../../img/powerbank.jpg" alt="Long wires" width="40%"/></p>
 
-### Version with batteries
+### Version with alkaline batteries
 <p align="center"><img src="../../img/version-batteries.jpg" alt="Version with batteries" width="100%"/></p>
 
-Download sketch here [(.fzz)](https://github.com/cyber-kinga/Smart-Light-Switch/tree/main/1.x%20Smart%20Single-Light%20Switch/1.1%20Smart%20Single-Light%20Switch/sketches)
+Download sketch here [(.fzz)](https://github.com/cyber-kinga/Smart-Light-Switch/tree/main/2.x%20Smart%20Double-Light%20Switch/2.1%20Smart%20Double-Light%20Switch/sketches)
 
 <p align="center"><img src="../../img/batteries-sketch3.jpg" alt="Sketch with batteries" width="100%"/></p>
 
