@@ -65,7 +65,7 @@ Download sketch here [(.fzz)](https://github.com/cyber-kinga/Smart-Light-Switch/
 
 <p align="center"><img src="../../img/powerbank.jpg" alt="Long wires" width="40%"/></p>
 
-### Version with batteries
+### Version with alkaline batteries
 <p align="center"><img src="../../img/photo-version-with-batteries.jpg" alt="Version with batteries" width="100%"/></p>
 
 Download sketch here [(.fzz)](https://github.com/cyber-kinga/Smart-Light-Switch/tree/main/2.x%20Smart%20Double-Light%20Switch/2.0%20Smart%20Double-Light%20Switch/sketches)
