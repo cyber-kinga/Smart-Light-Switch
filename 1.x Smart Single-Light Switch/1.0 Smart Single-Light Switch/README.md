@@ -9,6 +9,9 @@ This project aims to create a simple Smart Single-Light Switch controlled via ph
 <p align="center"><img src="../../img/general-version.jpg" alt="Photo sketch" width="100%"/></p>
 
 Sketch made using <a href="https://fritzing.org/">Fritzing Software</a>
+
+Download sketch here [(.fzz)](https://github.com/cyber-kinga/Smart-Light-Switch/tree/main/1.x%20Smart%20Single-Light%20Switch/1.1%20Smart%20Single-Light%20Switch/sketches)
+
 <p align="center"><img src="../../img/General-sketch.png" alt="General sketch" width="100%"/></p>
 
 ## Used Hardware
@@ -61,6 +64,9 @@ Sketch made using <a href="https://fritzing.org/">Fritzing Software</a>
 
 ### Version with batteries
 <p align="center"><img src="../../img/version-with-batteries.jpg" alt="Version with batteries" width="100%"/></p>
+
+Download sketch here [(.fzz)](https://github.com/cyber-kinga/Smart-Light-Switch/tree/main/1.x%20Smart%20Single-Light%20Switch/1.1%20Smart%20Single-Light%20Switch/sketches)
+
 <p align="center"><img src="../../img/Batteries-sketch.png" alt="Sketch with batteries" width="100%"/></p>
 
 - [4 x AA (R6 LR6) alkaline battery](https://botland.store/batteries/9343-everactive-pro-aa-r6-lr6-alkaline-battery-4pcs-5903205770974.html)
@@ -118,7 +124,10 @@ Type 192.168.4.1 address in you browser to control your device.
     - <a href="https://docs.arduino.cc/arduino-cloud/hardware/cloud-agent/">Arduino Cloud Agent</a> - it is a required plugin that enables serial communication between your board and the Arduino Cloud accessed via your web browser
 
 ## My recommendations and tips
-1. The angles in the following code assume that the servo motor is mounted with its sticker facing the breadboard. If the mounting orientation is different, the movement directions may need to be adjusted (possibly requiring swapping 60 and 120 degrees).
+1. Make sure to install the appropriate driver for your microcontroller — in this case, the CH340G driver.
+You can usually find the driver name printed on the microcontroller chip itself.
+<p align="center"><img src="../../img/esp8266-wifi-nodemcu-v3.webp" alt="NodeMCUv3" width="30%"/></p>
+2. The angles in the following code assume that the servo motor is mounted with its sticker facing the breadboard. If the mounting orientation is different, the movement directions may need to be adjusted (possibly requiring swapping 60 and 120 degrees).
 
 ```c
   if (signal == "on") {         // If the signal says "on"
@@ -138,13 +147,13 @@ Type 192.168.4.1 address in you browser to control your device.
     servoMotor.write(90);       // Return to 90 degrees
   }
 ```
-2. Keep in mind that if you plan to power your device using a ```powerbank```, it won’t work without the LED diode. That’s because the microcontroller and servo together don’t draw enough power, causing a standard powerbank to quickly shut off, assuming there’s nothing to power.
+3. Keep in mind that if you plan to power your device using a ```powerbank```, it won’t work without the LED diode. That’s because the microcontroller and servo together don’t draw enough power, causing a standard powerbank to quickly shut off, assuming there’s nothing to power.
 To make the powerbank solution work, we need to make one small adjustment in our code: the LED diode should stay on continuously to create enough power demand and only blink when a signal is received. I’ve already implemented this solution in the code (you can find it within comments) so you don’t have to write it yourself.
 
 ```TIP: You can trick the powerbank in a different way by making the LED diode blink every x seconds. Give it a try!```
 
-3. If the upload fails, the issue might be an old micro USB cable. Even if the cable looks fine, it could be damaged internally. I had this issue before so I bought a completely new micro USB cable and it solved all of my problems.
-4. If you get a port busy error, you can open a Device Manager, find Ports (COM & LPT), locate your device, and disable & enable the driver. This should solve the issue.
+4. If the upload fails, the issue might be an old micro USB cable. Even if the cable looks fine, it could be damaged internally. I had this issue before so I bought a completely new micro USB cable and it solved all of my problems.
+5. If you get a port busy error, you can open a Device Manager, find Ports (COM & LPT), locate your device, and disable & enable the driver. This should solve the issue.
 
 
 ## Resources and Inspiration
